@@ -108,7 +108,7 @@ public partial class GamePlayModule : BaseModule
 
     protected override void OnDispose()
     {
-       base.Dispose();
+       //base.Dispose();
 
         FacadeRemove();
     }

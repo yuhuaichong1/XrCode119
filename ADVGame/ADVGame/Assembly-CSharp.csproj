@@ -97,11 +97,13 @@
     <Compile Include="Assets\Scripts\_Game\Singleton.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Meta\MetaType.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimePoint\TimePoint.cs" />
     <Compile Include="Assets\Scripts\MiniComponent\AutoHandSwing.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\UnityUI\UICompatibility\ETWindow.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\IExtensible.cs" />
     <Compile Include="Assets\Scripts\Resource\ResourceLoader\AssetBundleResourceLoader.cs" />
     <Compile Include="Assets\Scripts\Facade\FacadeAudio.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimePoint\UnknownTimePoint.cs" />
     <Compile Include="Assets\Tools\XrCode\Runtime\UI\Behaviours\UIPanelBehaviour.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Compiler\Local.cs" />
     <Compile Include="Assets\Scripts\Scene\LoadingProgressController.cs" />
@@ -249,6 +251,7 @@
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\ArrayDecorator.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ProtoContractAttribute.cs" />
     <Compile Include="Assets\Scripts\PlayerPref\PlayerPrefDefines.cs" />
+    <Compile Include="Assets\Scripts\Timeline\CreateTimeline.cs" />
     <Compile Include="Assets\Scripts\UI\Common\LoadingView.cs" />
     <Compile Include="Assets\Scripts\Framework\_Interface\IFixedUpdate.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ProtoEnumAttribute.cs" />
@@ -256,6 +259,7 @@
     <Compile Include="Assets\Tools\LubanLib\ITypeId.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\PrefixStyle.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Compiler\CompilerContext.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TPStatus.cs" />
     <Compile Include="Assets\Scripts\Notify\NotifyDefine.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\SimpleExamples\TwoFingers\TooglePickMethodUI.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
@@ -264,6 +268,7 @@
     <Compile Include="Assets\Scripts\Tools\Utils\StringUtil.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\UriDecorator.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ExtensibleUtil.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimePoint\InteractTimePoint.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\IProtoSerializer.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Examples\ControlEventInput\ControlUIInput.cs" />
     <Compile Include="Assets\Scripts\Tools\Debug\D.cs" />
@@ -344,6 +349,7 @@
     <Compile Include="Assets\Scripts\Gaming\GamePlay\GamePlayModule.cs" />
     <Compile Include="Assets\Scripts\MultiLanguages\FacadeLanguage.cs" />
     <Compile Include="Assets\Scripts\Tools\Timer\Timer.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimeLineSC.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\UnityUI\UITwistPinch\UIDrag.cs" />
     <Compile Include="Assets\Gen\Code\ConfPayRegion.cs" />
     <Compile Include="Assets\Gen\Code\TBPayChannel.cs" />
@@ -370,6 +376,7 @@
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\SingleSerializer.cs" />
     <Compile Include="Assets\Scripts\UI\Guide\UITemplate\UIGuide_Temp.cs" />
     <Compile Include="Assets\Gen\Code\Tables.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimePoint\NormalTimePoint.cs" />
     <Compile Include="Assets\Tools\Timer\STimer.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Helpers.cs" />
