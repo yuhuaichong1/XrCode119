@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 331355300
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c22317d3638649b622412be4e0ebefd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1cc5d46a6a1d014db788ffb36333b8bd
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Json/Levels/lv_16.json
+Dependencies: []

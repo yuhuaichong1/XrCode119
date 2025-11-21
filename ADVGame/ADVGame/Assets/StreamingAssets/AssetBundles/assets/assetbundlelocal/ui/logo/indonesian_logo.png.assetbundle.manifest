@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 598704465
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a788735a8eddf278155381bfaeffd71a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 01cb73ee2616bccd9b001564e6f726ef
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/Logo/Indonesian_Logo.png
+Dependencies: []

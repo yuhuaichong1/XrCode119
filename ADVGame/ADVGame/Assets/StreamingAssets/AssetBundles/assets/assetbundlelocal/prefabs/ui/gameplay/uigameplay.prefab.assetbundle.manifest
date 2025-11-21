@@ -1,0 +1,91 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 836397348
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e02acf247bf28eec09d74842a9d26999
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a70c87eedd620a61c49ffaa08fdef0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fe6aa5a09575f6f3b2eb25e41c6eee72
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 894460784951dd7479dcc0dbe508753a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89c9cd95d4070434481385c7ca0b4b3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: UIOpElement
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/UI/GamePlay/btn_3.png
+- Assets/AssetBundleLocal/Prefabs/UI/GamePlay/UIGamePlay.prefab
+- Assets/UI/GamePlay/GamePlayBg.png
+- Assets/UI/GamePlay/qianbi_bg.png
+- Assets/UI/Common/btn_shezhi.png
+- Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop2.png
+- Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop1.png
+- Assets/UI/GamePlay/btn_cash.png
+- Assets/UI/GamePlay/btn_2.png
+- Assets/UI/GamePlay/btn_1.png
+- Assets/UI/GamePlay/icon_heart.png
+- Assets/UI/GamePlay/btn_fanhui.png
+- Assets/UI/GamePlay/IAA/IAAStar.png
+- Assets/UI/GamePlay/icon_tishi.png
+- Assets/UI/GamePlay/tishikuang.png
+Dependencies:
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/icon_move.png.assetbundle

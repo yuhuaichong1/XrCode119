@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 3863812113
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f08f678b9e08955e136fb2535d2a2670
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 100a0c8eb16e447e79449b396df1e66b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/PayType/TogglePic/skrill.png
+Dependencies: []

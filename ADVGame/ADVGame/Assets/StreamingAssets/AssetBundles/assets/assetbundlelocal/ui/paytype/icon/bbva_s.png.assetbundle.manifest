@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 3506231517
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a60a48e644f6ddd0e284fa5bda675e15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 54e54bf2967270890fa5473fab517726
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/PayType/Icon/bbva_s.png
+Dependencies: []

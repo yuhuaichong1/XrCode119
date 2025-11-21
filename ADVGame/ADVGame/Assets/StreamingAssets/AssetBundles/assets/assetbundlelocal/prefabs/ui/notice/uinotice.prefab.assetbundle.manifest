@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 1857488743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 05dcdeac1aa605dad1da46ab4ef1f417
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7b11c417e379a65129d7ac665846027
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d37ea886a43f060d5cfb6dba1855b4e1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: UIOpElement
+Assets:
+- Assets/AssetBundleLocal/Prefabs/UI/Notice/UINotice.prefab
+Dependencies: []

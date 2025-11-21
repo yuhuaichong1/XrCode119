@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 773058931
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 004b4f2209eb70e5adc16848a13b6baf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8147582b2a7e11fefe93bdf1549265e5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UI/Common/PlaneBg.png
+Dependencies: []

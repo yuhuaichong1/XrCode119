@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 2434265396
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3990343e12bf25a294fa842f5b32d9ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2982e0ea0f207d99e809db1040b90178
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/PayType/Icon/paypal_s.png
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 2775536815
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62a5a1c4b00a076699b945e9a3981421
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7623a04346d220483f62bdfe72afea62
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 64c3b36d0f90dc9236607bf3d8c3e3c2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Font/HirukoPro_Bold.ttf
+Dependencies: []

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 4232470567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de16e257cf609cd2bf5279f3c6838d74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 973869c3e8ae32cb330a516e7e5d59de
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/Logo/French_Logo.png
+Dependencies: []

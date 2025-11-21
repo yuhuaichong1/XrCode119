@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 833589303
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a0a9558de9c6ae0f9cc4e52b09fcbcf6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f04163545e5eefde2ff292d3abd9cec5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/UI/PayType/TogglePic/pix.png
+Dependencies: []

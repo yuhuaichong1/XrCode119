@@ -1,0 +1,132 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 3715986661
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e1d12e4911fd25035dbe18790b67c634
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4db875dc0f266f2d3d2ab8a5a783f198
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8377ddc088a0fcf8524591c0f9f03e1f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 214349e16f0ad684dac8c561f1b12536, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: UIOpElement
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.MeshGenerator
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.MeshGenerator/Settings
+Assets:
+- Assets/UI/Spine/Hammer/hammer.png
+- Assets/UI/Effect/tishi_bg.png
+- Assets/UI/Spine/Hammer/hammer_Material-Additive.mat
+- Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Additive.shader
+- Assets/UI/Spine/DifficultyUp/bs_Atlas.asset
+- Assets/UI/Spine/Hammer/hammer_SkeletonData.asset
+- Assets/UI/Spine/DifficultyUp/bs.json
+- Assets/UI/Spine/Hammer/hammer_Atlas.asset
+- Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicMultiply.mat
+- Assets/UI/Spine/DifficultyUp/bs_Material.mat
+- Assets/UI/Spine/Click/touch_Material.mat
+- Assets/UI/Spine/Hammer/hammer.json
+- Assets/UI/Spine/DifficultyUp/bs.atlas.txt
+- Assets/AssetBundleLocal/UI/RewardEffect/icon_qianbidui.png
+- Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Multiply.shader
+- Assets/UI/Spine/Hammer/hammer_Material.mat
+- Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png
+- Assets/UI/Spine/Clear/dx_Material.mat
+- Assets/UI/Spine/Clear/dx_Atlas.asset
+- Assets/UI/Effect/tankuang_3.png
+- Assets/UI/Spine/Clear/dx.json
+- Assets/Material/FlyMoneyStar.mat
+- Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicScreen.mat
+- Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicAdditive.mat
+- Assets/UI/Spine/Click/touch_Atlas.asset
+- Assets/UI/Spine/Click/touch_SkeletonData.asset
+- Assets/UI/Spine/Click/touch.png
+- Assets/UI/Spine/Clear/dx.png
+- Assets/UI/Spine/DifficultyUp/bs_SkeletonData.asset
+- Assets/UI/Spine/Clear/dx_SkeletonData.asset
+- Assets/AssetBundleLocal/Prefabs/UI/Effect/UIEffect.prefab
+- Assets/UI/Spine/Click/touch_Material-Additive.mat
+- Assets/UI/Spine/DifficultyUp/bs.png
+- Assets/AssetBundleLocal/UI/LuckySpinIcons/icon_qianbi_IAA.png
+- Assets/UI/Effect/tankuang_2.png
+- Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader
+- Assets/UI/Spine/Hammer/hammer.atlas.txt
+- Assets/UI/Spine/Click/touch.json
+- Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png
+- Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader
+- Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Screen.shader
+- Assets/UI/Effect/FX_Flare_9.TGA
+- Assets/UI/Spine/Click/touch.atlas.txt
+- Assets/UI/Spine/Clear/dx.atlas.txt
+Dependencies:
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/withdrawalrecords/list_bg_h.png.assetbundle

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 1846280724
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1d60285bb6ba136f7e2a7247aef8d30
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: acd0d1b4fa1939c62c348d5693a285a8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UI/WithdrawalRecords/list_bg_h.png
+Dependencies: []

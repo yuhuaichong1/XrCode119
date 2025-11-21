@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 1452589790
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6fac3fc6ce669aa79894a24eb49d97a7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 756a8b0dd44b2b17d258ef41d3760e47
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Audio/ropeTexture4.wav
+Dependencies: []

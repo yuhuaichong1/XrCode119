@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 2671427766
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 63bdb2f33e83c33b44ba94e7c8fc04cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a415c261547b94e718f445c5939f9c92
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UI/Common/img_huakuang_bg.png
+Dependencies: []

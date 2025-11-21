@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 3623771566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 72ee103919367720ab45294e9c1c2b7d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 02fa690b85c2ec50d4417560b6e6ef6a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Config/PathBundleConfig.bytes
+Dependencies: []

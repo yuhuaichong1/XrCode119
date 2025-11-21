@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.60f1
+CRC: 2055867197
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0826c85b554744825fecd9a4ebcac98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 281e8f2a21bd587989bdc22f5c108a45
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Audio/click2.wav
+Dependencies: []
