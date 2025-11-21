@@ -1,4 +1,3 @@
-// VideoPlayerModule.cs
 using cfg;
 using System;
 using System.Collections;
@@ -13,22 +12,25 @@ public class VideoPlayerModule : BaseModule
     private int _currentVideoIndex = 0;
     private ConfStoryline _currentVideoConfig;
     private Coroutine _progressUpdateCoroutine;
-    private Dictionary<int, ConfStoryline> _videoConfigDict; // 通过sn快速查找配置
+    private Dictionary<int, ConfStoryline> _videoConfigDict;
 
+    #region 生命周期管理
     protected override void OnLoad()
     {
         base.OnLoad();
         InitializeVideoPlayer();
-
-        VideoPlayerEvent.VideoPlay += OnVideoPlay;
-        VideoPlayerEvent.VideoPlayIndex += PlayVideoByIndex;
-        VideoPlayerEvent.VideoNext += NextVideo;
-        VideoPlayerEvent.VideoPause += PauseVideo;
-        VideoPlayerEvent.VideoFastForward += FastForwardVideo;
-        VideoPlayerEvent.VideoRewind += RewindVideo;
-        VideoPlayerEvent.VideoRestart += RestartCurrentVideo;
+        SubscribeToEvents();
     }
 
+    protected override void OnDispose()
+    {
+        base.OnDispose();
+        Cleanup();
+        UnsubscribeFromEvents();
+    }
+    #endregion
+
+    #region 初始化与清理
     private void InitializeVideoPlayer()
     {
         _videoPlayerService = new VideoPlayerService();
@@ -36,13 +38,17 @@ public class VideoPlayerModule : BaseModule
         _videoPlayerService.OnErrorOccurred += OnVideoError;
         _videoPlayerService.OnStateChanged += OnVideoStateChanged;
 
+        LoadVideoConfigs();
+    }
+
+    private void LoadVideoConfigs()
+    {
         _videoList = ConfigModule.Instance.Tables.TBStoryline.DataList;
         _videoConfigDict = new Dictionary<int, ConfStoryline>();
 
-        // 构建字典便于快速查找
         foreach (var config in _videoList)
         {
-            if (config.Sn >= 0) // 只添加有效的配置
+            if (config.Sn >= 0)
             {
                 _videoConfigDict[config.Sn] = config;
             }
@@ -51,70 +57,65 @@ public class VideoPlayerModule : BaseModule
         Debug.Log($"Loaded {_videoList.Count} videos from config");
     }
 
-    private void OnVideoCompleted()
+    private void Cleanup()
     {
-        Debug.Log("Video completed");
         StopProgressUpdate();
+        ClearAllVideoInfo();
 
-        // 根据当前视频的nextTip决定下一个视频
-        HandleNextVideo();
+        if (_videoPlayerService != null)
+        {
+            _videoPlayerService.OnVideoCompleted -= OnVideoCompleted;
+            _videoPlayerService.OnErrorOccurred -= OnVideoError;
+            _videoPlayerService.OnStateChanged -= OnVideoStateChanged;
+            _videoPlayerService.Dispose();
+            _videoPlayerService = null;
+        }
+    }
+    #endregion
+
+    #region 事件订阅管理
+    private void SubscribeToEvents()
+    {
+        VideoPlayerEvent.VideoPlay += OnVideoPlay;
+        VideoPlayerEvent.SelectVideoPlay += OnSelectionMade;
+        VideoPlayerEvent.VideoPlayIndex += PlayVideoByIndex;
+        VideoPlayerEvent.VideoNext += NextVideo;
+        VideoPlayerEvent.VideoPause += PauseVideo;
+        VideoPlayerEvent.VideoFastForward += FastForwardVideo;
+        VideoPlayerEvent.VideoRewind += RewindVideo;
+        VideoPlayerEvent.VideoRestart += RestartCurrentVideo;
     }
 
-    private void HandleNextVideo()
+    private void UnsubscribeFromEvents()
     {
-        if (_currentVideoConfig == null) return;
-        int nextIndex = _currentVideoIndex + 1;
-        if (nextIndex >= 0 && nextIndex < _videoList.Count)
+        VideoPlayerEvent.VideoPlay -= OnVideoPlay;
+        VideoPlayerEvent.SelectVideoPlay -= OnSelectionMade;
+        VideoPlayerEvent.VideoPlayIndex -= PlayVideoByIndex;
+        VideoPlayerEvent.VideoNext -= NextVideo;
+        VideoPlayerEvent.VideoPause -= PauseVideo;
+        VideoPlayerEvent.VideoFastForward -= FastForwardVideo;
+        VideoPlayerEvent.VideoRewind -= RewindVideo;
+        VideoPlayerEvent.VideoRestart -= RestartCurrentVideo;
+    }
+    #endregion
+
+    #region 视频播放控制
+    private void OnVideoPlay()
+    {
+        if (_videoPlayerService.CurrentState == VideoPlayerState.Paused)
         {
-            ConfStoryline nextVideoConfig = _videoList[nextIndex];
-            PlayVideoByConfig(nextVideoConfig);
-            if (nextVideoConfig.Type == 1)
-            {
-               //ShowSelectionPanel();
-            }
+            _videoPlayerService.Play();
         }
         else
         {
-            Debug.Log("No next video available, reached the end");
+            PlayVideoByIndex(_currentVideoIndex);
         }
     }
 
-    private void ShowSelectionPanel()
+    private void PlayVideoByIndex(int index)
     {
-        if (_currentVideoConfig == null || string.IsNullOrEmpty(_currentVideoConfig.NextTip))
-            return;
-        string[] nextTips = _currentVideoConfig.NextTip.Split(',');
-        List<int> availableChoices = new List<int>();
-        foreach (string tip in nextTips)
-        {
-            if (int.TryParse(tip.Trim(), out int nextSn))
-            {
-                availableChoices.Add(nextSn);
-            }
-        }
-        if (availableChoices.Count > 0)
-        {
-            //UISelectionPanel.OnSelectionMade += OnSelectionMade;
-            UIManager.Instance.OpenAsync<UISelectionPanel>(EUIType.EUIUISelectionPanel, null, availableChoices);
-        }
-    }
-
-    private void OnSelectionMade(int selectedSn)
-    {
-        PlayVideoBySn(selectedSn);
-    }
-
-    private void PlayNextVideoByTip()
-    {
-        if (_currentVideoConfig == null || string.IsNullOrEmpty(_currentVideoConfig.NextTip))
-        {
-            return;
-        }
-        string[] nextTips = _currentVideoConfig.NextTip.Split(',');// 解析nextTip，取第一个作为默认下一个
-        if (nextTips.Length > 0 && int.TryParse(nextTips[0].Trim(), out int nextSn))
-        {
-            PlayVideoBySn(nextSn);
-        }
+        if (_videoList == null || index < 0 || index >= _videoList.Count) return;
+        PlayVideoByConfig(_videoList[index]);
     }
 
     private void PlayVideoBySn(int sn)
@@ -148,107 +149,8 @@ public class VideoPlayerModule : BaseModule
         else
         {
             Debug.Log($"No video path for {config.Name}, handling next video directly");
-            //HandleNextVideo();
+            UpdateStatusText(VideoPlayerState.Completed);
         }
-    }
-
-    private int GetIndexBySn(int sn)
-    {
-        for (int i = 0; i < _videoList.Count; i++)
-        {
-            if (_videoList[i].Sn == sn)
-                return i;
-        }
-        return 0;
-    }
-
-    private void OnVideoError(string error)
-    {
-        Debug.LogError($"Video Player Error: {error}");
-        StopProgressUpdate();
-        VideoPlayerEvent.OnVideoStatusChanged?.Invoke("Error");
-    }
-
-    private void OnVideoStateChanged(VideoPlayerState previous, VideoPlayerState current)
-    {
-        VideoPlayerEvent.OnVideoStatusChanged?.Invoke(current.ToString());
-        if (current == VideoPlayerState.Playing)
-        {
-            StartProgressUpdate();
-        }
-        else if (current == VideoPlayerState.Paused || current == VideoPlayerState.Completed || current == VideoPlayerState.Error)
-        {
-            StopProgressUpdate();
-            UpdateProgressInfo();
-        }
-    }
-
-    #region 进度更新控制
-    private void StartProgressUpdate()
-    {
-        StopProgressUpdate();
-        _progressUpdateCoroutine = Game.Instance.StartCoroutine(ProgressUpdateRoutine());
-    }
-
-    private void StopProgressUpdate()
-    {
-        if (_progressUpdateCoroutine != null)
-        {
-            Game.Instance.StopCoroutine(_progressUpdateCoroutine);
-            _progressUpdateCoroutine = null;
-        }
-    }
-
-    private IEnumerator ProgressUpdateRoutine()
-    {
-        while (_videoPlayerService != null && _videoPlayerService.IsPlaying)
-        {
-            UpdateProgressInfo();
-            yield return new WaitForSeconds(0.1f); // 每0.1秒更新一次进度
-        }
-    }
-
-    private void UpdateProgressInfo()
-    {
-        if (_videoPlayerService == null) return;
-
-        string currentTime = FormatTime(_videoPlayerService.CurrentTime);
-        string duration = FormatTime(_videoPlayerService.Duration);
-        float progress = _videoPlayerService.Progress * 100f;
-
-        VideoPlayerEvent.OnVideoProgressUpdated?.Invoke(currentTime, duration, progress);
-    }
-    #endregion
-
-    #region 视频控制方法
-    private void OnVideoPlay()
-    {
-        if (_videoPlayerService.CurrentState == VideoPlayerState.Paused)
-        {
-            _videoPlayerService.Play();
-        }
-        else
-        {
-            PlayVideoByIndex(_currentVideoIndex);
-        }
-    }
-
-    private void PlayVideoByIndex(int index)
-    {
-        if (_videoList == null || index < 0 || index >= _videoList.Count) return;
-
-        PlayVideoByConfig(_videoList[index]);
-    }
-
-    private void UpdateStaticVideoInfo()
-    {
-        if (_currentVideoConfig == null) return;
-
-        string videoName = _currentVideoConfig.Name;
-        string duration = FormatTime(_videoPlayerService?.Duration ?? 0);
-        bool isLooping = _currentVideoConfig.IsLoop;
-
-        VideoPlayerEvent.OnVideoInfoUpdated?.Invoke(videoName, duration, isLooping);
     }
 
     private void PauseVideo()
@@ -268,7 +170,6 @@ public class VideoPlayerModule : BaseModule
 
     public void NextVideo()
     {
-        // 修改：不再自动播放下一个，而是根据nextTip逻辑
         HandleNextVideo();
     }
 
@@ -277,42 +178,231 @@ public class VideoPlayerModule : BaseModule
         _videoPlayerService?.Restart();
     }
 
-    // 格式化时间方法
+    public void StopVideo()
+    {
+        _videoPlayerService?.Stop();
+        ClearAllVideoInfo();
+    }
+    #endregion
+
+    #region 视频播放逻辑处理
+    private void OnVideoCompleted()
+    {
+        Debug.Log("Video completed");
+        StopProgressUpdate();
+        HandleNextVideo();
+    }
+
+    private void HandleNextVideo()
+    {
+        if (_currentVideoConfig == null) return;
+        int nextIndex = _currentVideoIndex + 1;
+        if (nextIndex < 0 || nextIndex >= _videoList.Count)
+        {
+            Debug.Log("No next video available, reached the end");
+            ClearAllVideoInfo();
+            return;
+        }
+        ConfStoryline nextVideoConfig = _videoList[nextIndex];
+        switch (nextVideoConfig.Type)
+        {
+            case 1:
+                PlayVideoByConfig(nextVideoConfig);
+                ShowSelectionPanel();
+                break;
+            default:
+                PlayVideoByConfig(nextVideoConfig);
+                break;
+        }
+    }
+
+    private void PlayNextSequentialVideo()
+    {
+        int nextIndex = _currentVideoIndex + 1;
+        if (nextIndex >= 0 && nextIndex < _videoList.Count)
+        {
+            PlayVideoByConfig(_videoList[nextIndex]);
+        }
+        else
+        {
+            Debug.Log("No next video available, reached the end");
+            ClearAllVideoInfo();
+        }
+    }
+
+    private void OnSelectionMade(int selectedSn)
+    {
+        PlayVideoBySn(selectedSn);
+    }
+
+    private void ShowSelectionPanel()
+    {
+        if (_currentVideoConfig == null || string.IsNullOrEmpty(_currentVideoConfig.NextTip))
+            return;
+
+        var availableChoices = ParseNextTips(_currentVideoConfig.NextTip);
+        if (availableChoices.Count > 0)
+        {
+            UIManager.Instance.OpenAsync<UISelectionPanel>(EUIType.EUIUISelectionPanel, null, availableChoices);
+        }
+    }
+
+    private List<int> ParseNextTips(string nextTip)
+    {
+        var choices = new List<int>();
+        string[] nextTips = nextTip.Split(',');
+
+        foreach (string tip in nextTips)
+        {
+            if (int.TryParse(tip.Trim(), out int nextSn))
+            {
+                choices.Add(nextSn);
+            }
+        }
+
+        return choices;
+    }
+    #endregion
+
+    #region 进度更新管理
+    private void OnVideoStateChanged(VideoPlayerState previous, VideoPlayerState current)
+    {
+        UpdateStatusText(current);
+
+        switch (current)
+        {
+            case VideoPlayerState.Playing:
+                StartProgressUpdate();
+                break;
+            case VideoPlayerState.Paused:
+            case VideoPlayerState.Completed:
+            case VideoPlayerState.Error:
+                StopProgressUpdate();
+                UpdateProgressInfo();
+                break;
+            case VideoPlayerState.Idle:
+                StopProgressUpdate();
+                // Idle 状态不调用 UpdateProgressInfo()，直接清空所有信息
+                ClearAllVideoInfo();
+                break;
+            case VideoPlayerState.Loading:
+            case VideoPlayerState.Preparing:
+            case VideoPlayerState.Seeking:
+                // 这些状态只需要更新状态文本
+                break;
+        }
+    }
+
+    private void UpdateStatusText(VideoPlayerState state)
+    {
+        string statusText = GetStatusText(state);
+        VideoPlayerEvent.OnVideoStatusChanged?.Invoke(statusText);
+    }
+
+    private string GetStatusText(VideoPlayerState state)
+    {
+        switch (state)
+        {
+            case VideoPlayerState.Idle:
+                return "准备就绪";
+            case VideoPlayerState.Loading:
+                return "加载中...";
+            case VideoPlayerState.Preparing:
+                return "准备播放...";
+            case VideoPlayerState.Playing:
+                return "播放中";
+            case VideoPlayerState.Paused:
+                return "已暂停";
+            case VideoPlayerState.Seeking:
+                return "跳转中...";
+            case VideoPlayerState.Completed:
+                return "播放完成";
+            case VideoPlayerState.Error:
+                return "播放错误";
+            default:
+                return state.ToString();
+        }
+    }
+
+    private void StartProgressUpdate()
+    {
+        StopProgressUpdate();
+        _progressUpdateCoroutine = CoroutineHelper.Instance.StartCoroutine(ProgressUpdateRoutine());
+    }
+
+    private void StopProgressUpdate()
+    {
+        if (_progressUpdateCoroutine != null)
+        {
+            CoroutineHelper.Instance.StopCoroutine(_progressUpdateCoroutine);
+            _progressUpdateCoroutine = null;
+        }
+    }
+
+    private IEnumerator ProgressUpdateRoutine()
+    {
+        while (_videoPlayerService != null && _videoPlayerService.IsPlaying)
+        {
+            UpdateProgressInfo();
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+    private void UpdateProgressInfo()
+    {
+        if (_videoPlayerService == null) return;
+
+        string currentTime = FormatTime(_videoPlayerService.CurrentTime);
+        string duration = FormatTime(_videoPlayerService.Duration);
+        float progress = _videoPlayerService.Progress * 100f;
+
+        VideoPlayerEvent.OnVideoProgressUpdated?.Invoke(currentTime, duration, progress);
+    }
+    #endregion
+
+    #region 工具方法
+    private void UpdateStaticVideoInfo()
+    {
+        if (_currentVideoConfig == null) return;
+
+        string videoName = _currentVideoConfig.Name;
+        string duration = FormatTime(_videoPlayerService?.Duration ?? 0);
+        bool isLooping = _currentVideoConfig.IsLoop;
+
+        VideoPlayerEvent.OnVideoInfoUpdated?.Invoke(videoName, duration, isLooping);
+    }
+
+    private void ClearAllVideoInfo()
+    {
+        VideoPlayerEvent.OnVideoInfoUpdated?.Invoke("", "00:00", false);
+        VideoPlayerEvent.OnVideoProgressUpdated?.Invoke("00:00", "00:00", 0f);
+    }
+
+    private int GetIndexBySn(int sn)
+    {
+        for (int i = 0; i < _videoList.Count; i++)
+        {
+            if (_videoList[i].Sn == sn)
+                return i;
+        }
+        return 0;
+    }
+
     private string FormatTime(float timeInSeconds)
     {
         if (timeInSeconds <= 0) return "00:00";
 
         TimeSpan timeSpan = TimeSpan.FromSeconds(timeInSeconds);
-        if (timeSpan.Hours > 0)
-        {
-            return string.Format("{0:00}:{1:00}:{2:00}", timeSpan.Hours, timeSpan.Minutes, timeSpan.Seconds);
-        }
-        else
-        {
-            return string.Format("{0:00}:{1:00}", timeSpan.Minutes, timeSpan.Seconds);
-        }
+        return timeSpan.Hours > 0
+            ? string.Format("{0:00}:{1:00}:{2:00}", timeSpan.Hours, timeSpan.Minutes, timeSpan.Seconds)
+            : string.Format("{0:00}:{1:00}", timeSpan.Minutes, timeSpan.Seconds);
+    }
+
+    private void OnVideoError(string error)
+    {
+        Debug.LogError($"Video Player Error: {error}");
+        StopProgressUpdate();
+        UpdateStatusText(VideoPlayerState.Error);
     }
     #endregion
-
-    protected override void OnDispose()
-    {
-        base.OnDispose();
-        StopProgressUpdate();
-
-        if (_videoPlayerService != null)
-        {
-            _videoPlayerService.OnVideoCompleted -= OnVideoCompleted;
-            _videoPlayerService.OnErrorOccurred -= OnVideoError;
-            _videoPlayerService.OnStateChanged -= OnVideoStateChanged;
-            _videoPlayerService.Dispose();
-        }
-
-        VideoPlayerEvent.VideoPlay -= OnVideoPlay;
-        VideoPlayerEvent.VideoPlayIndex -= PlayVideoByIndex;
-        VideoPlayerEvent.VideoNext -= NextVideo;
-        VideoPlayerEvent.VideoPause -= PauseVideo;
-        VideoPlayerEvent.VideoFastForward -= FastForwardVideo;
-        VideoPlayerEvent.VideoRewind -= RewindVideo;
-        VideoPlayerEvent.VideoRestart -= RestartCurrentVideo;
-    }
 }

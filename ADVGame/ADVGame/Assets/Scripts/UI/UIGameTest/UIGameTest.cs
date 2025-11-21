@@ -70,7 +70,7 @@ namespace XrCode
         {
             UIManager.Instance.CloseUI(EUIType.EUIUIGameTest);
         }
-        protected override void OnDisable()
+        protected  void OnDestroy()
         {
        
             VideoPlayerEvent.OnVideoInfoUpdated -= OnVideoInfoUpdated;

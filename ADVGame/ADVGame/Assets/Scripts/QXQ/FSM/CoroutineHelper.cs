@@ -1,6 +1,4 @@
-// CoroutineHelper.cs
 using UnityEngine;
-using System.Collections;
 
 namespace XrCode
 {

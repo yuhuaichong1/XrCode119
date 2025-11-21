@@ -8,10 +8,6 @@
         {
             UIManager.Instance.OpenAsync<UIGameTest>(EUIType.EUIUIGameTest, (BaseUI) =>
             {
-                /*UIManager.Instance.OpenAsync<UIEffect>(EUIType.EUIEffect);
-                 UIManager.Instance.OpenAsync<UIGuide>(EUIType.EUIGuide);
-                 */
-                // UIManager.Instance.CloseUI(EUIType.EUIGamePlay);
                 UIManager.Instance.CloseUI(EUIType.EUILoading);
             });
         }

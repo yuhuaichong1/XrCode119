@@ -1,1580 +1,568 @@
 ManifestFileVersion: 0
-CRC: 374973192
+CRC: 603684054
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets/game/sprites/boards/17 hat brim.png.assetbundle
+      Name: assets/assetbundlelocal/videos/video1.mp4.assetbundle
       Dependencies: {}
     Info_1:
-      Name: assets/ui/effect/t_vfx_caidai.png.assetbundle
+      Name: assets/assetbundlelocal/videos/video2.mp4.assetbundle
       Dependencies: {}
     Info_2:
-      Name: assets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-        Dependency_2: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
-        Dependency_3: assets/ui/gameplay/gameplaybg.png.assetbundle
+      Name: assets/assetbundlelocal/videos/video3.mp4.assetbundle
+      Dependencies: {}
     Info_3:
-      Name: assets/assetbundlelocal/prefabs/ui/levelfailure/uilevelfailure.prefab.assetbundle
+      Name: assets/assetbundlelocal/videos/video4.mp4.assetbundle
       Dependencies: {}
     Info_4:
       Name: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
       Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_0: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
         Dependency_1: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-        Dependency_2: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
-        Dependency_3: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
+        Dependency_2: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_3: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
+        Dependency_4: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
     Info_5:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphictintblackscreen-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-screen.shader.assetbundle
-    Info_6:
-      Name: assets/assetbundlelocal/json/levels/lv_9.json.assetbundle
-      Dependencies: {}
-    Info_7:
-      Name: assets/game/sprites/boards/1 new graphic/3 ellipses/ellipse 1.0.png.assetbundle
-      Dependencies: {}
-    Info_8:
-      Name: assets/game/sprites/boards/1 new graphic/4 triangles/triangle 0.5.png.assetbundle
-      Dependencies: {}
-    Info_9:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 850-2.png.assetbundle
-      Dependencies: {}
-    Info_10:
-      Name: assets/game/sprites/boards/23 rabbit.png.assetbundle
-      Dependencies: {}
-    Info_11:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-4/1side.png.assetbundle
-      Dependencies: {}
-    Info_12:
-      Name: assets/assetbundlelocal/json/levels/lv_53.json.assetbundle
-      Dependencies: {}
-    Info_13:
-      Name: assets/tools/easytouchbundle/easytouchcontrols/examples/_medias/textures/texture.jpg.assetbundle
-      Dependencies: {}
-    Info_14:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 850.png.assetbundle
-      Dependencies: {}
-    Info_15:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/3.png.assetbundle
-      Dependencies: {}
-    Info_16:
-      Name: assets/assetbundlelocal/prefabs/ui/loading/uiloading.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/ui/loading/loadingbg.jpg.assetbundle
-    Info_17:
-      Name: assets/assetbundlelocal/ui/logo/indonesian_logo.png.assetbundle
-      Dependencies: {}
-    Info_18:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/2.png.assetbundle
-      Dependencies: {}
-    Info_19:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicdefaultgrayscale-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_20:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/4side.png.assetbundle
-      Dependencies: {}
-    Info_21:
-      Name: assets/assetbundlelocal/ui/paytype/icon/skrill_s.png.assetbundle
-      Dependencies: {}
-    Info_22:
-      Name: assets/assetbundlelocal/ui/logo/brazilian_portuguese_logo.png.assetbundle
-      Dependencies: {}
-    Info_23:
-      Name: assets/assetbundlelocal/prefabs/ui/luckyreward/uiluckyreward.prefab.assetbundle
-      Dependencies: {}
-    Info_24:
-      Name: assets/assetbundlelocal/json/levels/lv_29.json.assetbundle
-      Dependencies: {}
-    Info_25:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/revolut.png.assetbundle
-      Dependencies: {}
-    Info_26:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-lit-zwrite-outline.shader.assetbundle
-      Dependencies: {}
-    Info_27:
-      Name: assets/assetbundlelocal/prefabs/ui/withdrawaltotal/uiwithdrawaltotal.prefab.assetbundle
-      Dependencies: {}
-    Info_28:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-warning.png.assetbundle
-      Dependencies: {}
-    Info_29:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-point.png.assetbundle
-      Dependencies: {}
-    Info_30:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/layer 1 - flower
-        pot.png.assetbundle
-      Dependencies: {}
-    Info_31:
-      Name: assets/assetbundlelocal/audio/broom.wav.assetbundle
-      Dependencies: {}
-    Info_32:
-      Name: assets/game/sprites/boards/32 arrows.png.assetbundle
-      Dependencies: {}
-    Info_33:
-      Name: assets/assetbundlelocal/prefabs/ui/setting/uisetting.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-    Info_34:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/crown.png.assetbundle
-      Dependencies: {}
-    Info_35:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish leaf edge.png.assetbundle
-      Dependencies: {}
-    Info_36:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphictintblackmultiply-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-multiply.shader.assetbundle
-    Info_37:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/cameradepthnormalstexture.shader.assetbundle
-      Dependencies: {}
-    Info_38:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/1.png.assetbundle
-      Dependencies: {}
-    Info_39:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_2.prefab.assetbundle
-      Dependencies: {}
-    Info_40:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/sprite/spritespixellit-outline.shader.assetbundle
-      Dependencies: {}
-    Info_41:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/readme.md.assetbundle
-      Dependencies: {}
-    Info_42:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/1side.png.assetbundle
-      Dependencies: {}
-    Info_43:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphictintblackmultiply-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-multiply.shader.assetbundle
-    Info_44:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/flower pot under
-        layer 1.png.assetbundle
-      Dependencies: {}
-    Info_45:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-multiply.shader.assetbundle
-      Dependencies: {}
-    Info_46:
-      Name: assets/game/sprites/boards/11 crown edge.png.assetbundle
-      Dependencies: {}
-    Info_47:
-      Name: assets/assetbundlelocal/json/levels/lv_30.json.assetbundle
-      Dependencies: {}
-    Info_48:
-      Name: assets/assetbundlelocal/prefabs/ui/withdrawalrecords/uiwithdrawalrecords.prefab.assetbundle
-      Dependencies: {}
-    Info_49:
-      Name: assets/game/sprites/boards/1 new graphic/9 rectangle right/rectangle
-        1.0.png.assetbundle
-      Dependencies: {}
-    Info_50:
-      Name: assets/assetbundlelocal/spine/version.txt.assetbundle
-      Dependencies: {}
-    Info_51:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_3.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/game/sprites/ui/hole.png.assetbundle
-        Dependency_1: assets/game/sprites/boards/1 new graphic/16 squares/square.png.assetbundle
-        Dependency_2: assets/game/sprites/boards/1 new graphic/16 square sides/square
-          side.png.assetbundle
-    Info_52:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangles/rectangle 0.9.png.assetbundle
-      Dependencies: {}
-    Info_53:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/side of the stomach.png.assetbundle
-      Dependencies: {}
-    Info_54:
-      Name: assets/assetbundlelocal/json/levels/lv_31.json.assetbundle
-      Dependencies: {}
-    Info_55:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/picpay.png.assetbundle
-      Dependencies: {}
-    Info_56:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/crown edge.png.assetbundle
-      Dependencies: {}
-    Info_57:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicadditive-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_58:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/1side.png.assetbundle
-      Dependencies: {}
-    Info_59:
-      Name: assets/game/sprites/boards/1 new graphic/6 pentagon sides/pentagon side
-        0.5.png.assetbundle
-      Dependencies: {}
-    Info_60:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphicdefaultoutline.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-outline.shader.assetbundle
-    Info_61:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicdefaultoutline-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-outline.shader.assetbundle
-    Info_62:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphicdefaultgrayscale.mat.assetbundle
-      Dependencies: {}
-    Info_63:
-      Name: assets/assetbundlelocal/json/levels/lv_38.json.assetbundle
-      Dependencies: {}
-    Info_64:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-skeleton-lit.shader.assetbundle
-      Dependencies: {}
-    Info_65:
-      Name: assets/assetbundlelocal/prefabs/ui/enterinfomation/uienterinfomation.prefab.assetbundle
-      Dependencies: {}
-    Info_66:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/2.png.assetbundle
-      Dependencies: {}
-    Info_67:
-      Name: assets/assetbundlelocal/prefabs/ui/collectionview/uicollectionview.prefab.assetbundle
-      Dependencies: {}
-    Info_68:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/2 side.png.assetbundle
-      Dependencies: {}
-    Info_69:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_5.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/game/sprites/boards/1 new graphic/4 triangles/triangle
-          0.5.png.assetbundle
-        Dependency_1: assets/game/sprites/boards/2 triangle.png.assetbundle
-        Dependency_2: assets/game/sprites/ui/hole.png.assetbundle
-        Dependency_3: assets/game/sprites/boards/20 cross edges.png.assetbundle
-        Dependency_4: assets/game/sprites/boards/1 new graphic/4 triangle sides/triangle
-          side 0.5.png.assetbundle
-        Dependency_5: assets/game/sprites/boards/2 triangle sides.png.assetbundle
-        Dependency_6: assets/game/sprites/boards/1 new graphic/1 horizontal stripe
-          edge/1 horizontal strip edge 1.7.png.assetbundle
-        Dependency_7: assets/game/sprites/boards/20 something.png.assetbundle
-        Dependency_8: assets/game/sprites/boards/1 new graphic/1 horizontal bar/1
-          strip 1.7.png.assetbundle
-    Info_70:
-      Name: assets/assetbundlelocal/json/levels/lv_16.json.assetbundle
-      Dependencies: {}
-    Info_71:
-      Name: assets/assetbundlelocal/prefabs/ui/levelcompleted/uilevelcompleted.prefab.assetbundle
-      Dependencies: {}
-    Info_72:
-      Name: assets/assetbundlelocal/json/levels/lv_6.json.assetbundle
-      Dependencies: {}
-    Info_73:
-      Name: assets/assetbundlelocal/prefabs/ui/notice/noticeitem.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-    Info_74:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphictintblackoutline-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-tintblack-outline.shader.assetbundle
-    Info_75:
-      Name: assets/assetbundlelocal/audio/ropetexture4.wav.assetbundle
-      Dependencies: {}
-    Info_76:
-      Name: assets/assetbundlelocal/json/levels/lv_43.json.assetbundle
-      Dependencies: {}
-    Info_77:
-      Name: assets/game/sprites/boards/7 heart edges.png.assetbundle
-      Dependencies: {}
-    Info_78:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/1side.png.assetbundle
-      Dependencies: {}
-    Info_79:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/petal edge above
-        layer 2.png.assetbundle
-      Dependencies: {}
-    Info_80:
-      Name: assets/textmesh pro/resources/shaders/tmp_sdf.shader.assetbundle
-      Dependencies: {}
-    Info_81:
-      Name: assets/assetbundlelocal/ui/paytype/icon/venmo_s.png.assetbundle
-      Dependencies: {}
-    Info_82:
-      Name: assets/assetbundlelocal/json/levels/lv_10.json.assetbundle
-      Dependencies: {}
-    Info_83:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/5.png.assetbundle
-      Dependencies: {}
-    Info_84:
-      Name: assets/assetbundlelocal/prefabs/ui/withdrawalamount/uiwithdrawalamount.prefab.assetbundle
-      Dependencies: {}
-    Info_85:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphictintblackadditive-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-additive.shader.assetbundle
-    Info_86:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphictintblack-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack.shader.assetbundle
-    Info_87:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic-fill.shader.assetbundle
-      Dependencies: {}
-    Info_88:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphictintblack.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack.shader.assetbundle
-    Info_89:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/stem edge on layer
-        4.png.assetbundle
-      Dependencies: {}
-    Info_90:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicadditive-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_91:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/1.png.assetbundle
-      Dependencies: {}
-    Info_92:
-      Name: assets/assetbundlelocal/materials/skeletongraphicdefault2.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_93:
-      Name: assets/game/sprites/boards/11 crown.png.assetbundle
-      Dependencies: {}
-    Info_94:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/1side.png.assetbundle
-      Dependencies: {}
-    Info_95:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_4.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/game/sprites/boards/1 new graphic/3 ellipses/ellipse
-          1.0.png.assetbundle
-        Dependency_1: assets/game/sprites/boards/3 circular edges.png.assetbundle
-        Dependency_2: assets/game/sprites/boards/1 new graphic/12 heart edges/love
-          heart edge 1.0.png.assetbundle
-        Dependency_3: assets/game/sprites/ui/hole.png.assetbundle
-        Dependency_4: assets/game/sprites/boards/3 circle.png.assetbundle
-        Dependency_5: assets/game/sprites/boards/1 new graphic/3 elliptical edges/ellipse
-          edge 1.0.png.assetbundle
-        Dependency_6: assets/game/sprites/boards/1 square.png.assetbundle
-        Dependency_7: assets/game/sprites/boards/1 square side.png.assetbundle
-        Dependency_8: assets/game/sprites/boards/1 new graphic/12 love/love 1.0.png.assetbundle
-    Info_96:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/spritesvertexlit.shader.assetbundle
-      Dependencies: {}
-    Info_97:
-      Name: assets/assetbundlelocal/prefabs/ui/guide/uiguide.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-    Info_98:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphictintblackadditive-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-additive.shader.assetbundle
-    Info_99:
-      Name: assets/assetbundlelocal/prefabs/ui/uihhxk/uihhxk.prefab.assetbundle
-      Dependencies: {}
-    Info_100:
-      Name: assets/game/prefabs/levels/hole_1.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/game/sprites/ui/hole.png.assetbundle
-    Info_101:
-      Name: assets/game/sprites/boards/2 triangle.png.assetbundle
-      Dependencies: {}
-    Info_102:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/3side.png.assetbundle
-      Dependencies: {}
-    Info_103:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/face.png.assetbundle
-      Dependencies: {}
-    Info_104:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-slot.png.assetbundle
-      Dependencies: {}
-    Info_105:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicfill-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic-fill.shader.assetbundle
-    Info_106:
-      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop1.png.assetbundle
-      Dependencies: {}
-    Info_107:
-      Name: assets/game/sprites/boards/1 new graphic/3 ellipses/ellipse 1.3.png.assetbundle
-      Dependencies: {}
-    Info_108:
-      Name: assets/game/sprites/boards/56hexagons.png.assetbundle
-      Dependencies: {}
-    Info_109:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicfill-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic-fill.shader.assetbundle
-    Info_110:
-      Name: assets/game/sprites/boards/3 circular edges.png.assetbundle
-      Dependencies: {}
-    Info_111:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/4.png.assetbundle
-      Dependencies: {}
-    Info_112:
-      Name: assets/assetbundlelocal/json/levels/lv_41.json.assetbundle
-      Dependencies: {}
-    Info_113:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/4.png.assetbundle
-      Dependencies: {}
-    Info_114:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-skeleton-tint.shader.assetbundle
-      Dependencies: {}
-    Info_115:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-weights.png.assetbundle
-      Dependencies: {}
-    Info_116:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/3.png.assetbundle
-      Dependencies: {}
-    Info_117:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/skeletondatamodifierassets/blendmodematerials/skeletonstraightmultiply.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_118:
-      Name: assets/game/sprites/boards/1 new graphic/12 heart edges/love heart edge
-        1.0.png.assetbundle
-      Dependencies: {}
-    Info_119:
-      Name: assets/ui/common/img_huakuang_bg.png.assetbundle
-      Dependencies: {}
-    Info_120:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/skeletondatamodifierassets/blendmodematerials/skeletonstraightscreen.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_121:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constraintpath.png.assetbundle
-      Dependencies: {}
-    Info_122:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-skinplaceholder.png.assetbundle
-      Dependencies: {}
-    Info_123:
-      Name: assets/assetbundlelocal/ui/logo/french_logo.png.assetbundle
-      Dependencies: {}
-    Info_124:
-      Name: assets/assetbundlelocal/prefabs/ui/confirm/uiconfirm.prefab.assetbundle
-      Dependencies: {}
-    Info_125:
-      Name: assets/game/sprites/boards/5 hexagons.png.assetbundle
-      Dependencies: {}
-    Info_126:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/3.png.assetbundle
-      Dependencies: {}
-    Info_127:
-      Name: assets/game/sprites/boards/8 water drops.png.assetbundle
-      Dependencies: {}
-    Info_128:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/skeletondatamodifierassets/blendmodematerials/default
-        blendmodematerials.asset.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_129:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/paypay.png.assetbundle
-      Dependencies: {}
-    Info_130:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/stem on layer 4.png.assetbundle
-      Dependencies: {}
-    Info_131:
-      Name: assets/assetbundlelocal/json/levels/lv_12.json.assetbundle
-      Dependencies: {}
-    Info_132:
-      Name: assets/assetbundlelocal/json/levels/lv_13.json.assetbundle
-      Dependencies: {}
-    Info_133:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/3.png.assetbundle
-      Dependencies: {}
-    Info_134:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
-      Dependencies: {}
-    Info_135:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-animation.png.assetbundle
-      Dependencies: {}
-    Info_136:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/left petal on layer
-        3.png.assetbundle
-      Dependencies: {}
-    Info_137:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/resources/spineassetdatabasemarker.txt.assetbundle
-      Dependencies: {}
-    Info_138:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/sprite/spritesvertexlit-outline.shader.assetbundle
-      Dependencies: {}
-    Info_139:
-      Name: assets/game/sprites/boards/32 arrow edges.png.assetbundle
-      Dependencies: {}
-    Info_140:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-attachment.png.assetbundle
-      Dependencies: {}
-    Info_141:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish grain.png.assetbundle
-      Dependencies: {}
-    Info_142:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-tintblack-outline.shader.assetbundle
-      Dependencies: {}
-    Info_143:
-      Name: assets/game/sprites/boards/1 new graphic/9right side of rectangle/rectangle
-        side 1.0.png.assetbundle
-      Dependencies: {}
-    Info_144:
-      Name: assets/game/sprites/ui/hole.png.assetbundle
-      Dependencies: {}
-    Info_145:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/3.png.assetbundle
-      Dependencies: {}
-    Info_146:
-      Name: assets/assetbundlelocal/json/levels/lv_35.json.assetbundle
-      Dependencies: {}
-    Info_147:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/right petal edge
-        on layer 3.png.assetbundle
-      Dependencies: {}
-    Info_148:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/5.png.assetbundle
-      Dependencies: {}
-    Info_149:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/2.png.assetbundle
-      Dependencies: {}
-    Info_150:
-      Name: assets/game/sprites/boards/1 new graphic/6 pentagons/pentagon 0.5.png.assetbundle
-      Dependencies: {}
-    Info_151:
-      Name: assets/assetbundlelocal/json/levels/lv_5.json.assetbundle
-      Dependencies: {}
-    Info_152:
-      Name: assets/assetbundlelocal/audio/orderunlock.wav.assetbundle
-      Dependencies: {}
-    Info_153:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/3side.png.assetbundle
-      Dependencies: {}
-    Info_154:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-bonenib.png.assetbundle
-      Dependencies: {}
-    Info_155:
-      Name: assets/assetbundlelocal/ui/paytype/icon/other_s.png.assetbundle
-      Dependencies: {}
-    Info_156:
-      Name: assets/assetbundlelocal/json/levels/lv_8.json.assetbundle
-      Dependencies: {}
-    Info_157:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphictintblackadditive.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-additive.shader.assetbundle
-    Info_158:
-      Name: assets/game/sprites/boards/20 cross edges.png.assetbundle
-      Dependencies: {}
-    Info_159:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/etransfer.png.assetbundle
-      Dependencies: {}
-    Info_160:
-      Name: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-      Dependencies: {}
-    Info_161:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/1.png.assetbundle
-      Dependencies: {}
-    Info_162:
-      Name: assets/ui/common/btn_green.png.assetbundle
-      Dependencies: {}
-    Info_163:
-      Name: assets/ui/common/jindutiao_664_h.png.assetbundle
-      Dependencies: {}
-    Info_164:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-tint-outline.shader.assetbundle
-      Dependencies: {}
-    Info_165:
-      Name: assets/assetbundlelocal/json/levels/lv_32.json.assetbundle
-      Dependencies: {}
-    Info_166:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/right leaf on layer
-        5.png.assetbundle
-      Dependencies: {}
-    Info_167:
-      Name: assets/assetbundlelocal/json/levels/lv_2.json.assetbundle
-      Dependencies: {}
-    Info_168:
-      Name: assets/assetbundlelocal/json/levels/lv_15.json.assetbundle
-      Dependencies: {}
-    Info_169:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicdefaultgrayscale-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_170:
-      Name: assets/assetbundlelocal/json/levels/lv_45.json.assetbundle
-      Dependencies: {}
-    Info_171:
-      Name: assets/assetbundlelocal/json/levels/lv_39.json.assetbundle
-      Dependencies: {}
-    Info_172:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/1.png.assetbundle
-      Dependencies: {}
-    Info_173:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/spritesunlit.shader.assetbundle
-      Dependencies: {}
-    Info_174:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/1side.png.assetbundle
-      Dependencies: {}
-    Info_175:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paypay_s.png.assetbundle
-      Dependencies: {}
-    Info_176:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/1.png.assetbundle
-      Dependencies: {}
-    Info_177:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/stomach.png.assetbundle
-      Dependencies: {}
-    Info_178:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/importerpresets/straightalphapresettemplate.png.assetbundle
-      Dependencies: {}
-    Info_179:
-      Name: assets/assetbundlelocal/json/levels/lv_55.json.assetbundle
-      Dependencies: {}
-    Info_180:
-      Name: assets/assetbundlelocal/audio/changeorder2.wav.assetbundle
-      Dependencies: {}
-    Info_181:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphictintblackmultiply-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-multiply.shader.assetbundle
-    Info_182:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/right petal on layer
-        3.png.assetbundle
-      Dependencies: {}
-    Info_183:
-      Name: assets/assetbundlelocal/json/levels/lv_18.json.assetbundle
-      Dependencies: {}
-    Info_184:
-      Name: assets/assetbundlelocal/audio/hammer.wav.assetbundle
-      Dependencies: {}
-    Info_185:
-      Name: assets/assetbundlelocal/ui/paytype/icon/other_s 1.png.assetbundle
-      Dependencies: {}
-    Info_186:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5-2/3.png.assetbundle
-      Dependencies: {}
-    Info_187:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/sprite/spritesunlit-outline.shader.assetbundle
-      Dependencies: {}
-    Info_188:
-      Name: assets/assetbundlelocal/prefabs/ui/luckyspin/uiluckyspin.prefab.assetbundle
-      Dependencies: {}
-    Info_189:
-      Name: assets/assetbundlelocal/json/levels/lv_7.json.assetbundle
-      Dependencies: {}
-    Info_190:
-      Name: assets/assetbundlelocal/audio/ropetexture.wav.assetbundle
-      Dependencies: {}
-    Info_191:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/petal above layer
-        2.png.assetbundle
-      Dependencies: {}
-    Info_192:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/5side.png.assetbundle
-      Dependencies: {}
-    Info_193:
-      Name: assets/ui/common/input_h.png.assetbundle
-      Dependencies: {}
-    Info_194:
-      Name: assets/game/sprites/boards/1 new graphic/11 regular hexagon edge images/regular
-        hexagon side 0.5.png.assetbundle
-      Dependencies: {}
-    Info_195:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/1side.png.assetbundle
-      Dependencies: {}
-    Info_196:
-      Name: assets/materials/effect/m_vfx_caidai.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/ui/effect/t_vfx_caidai.png.assetbundle
-    Info_197:
-      Name: assets/game/sprites/boards/23 rabbit side.png.assetbundle
-      Dependencies: {}
-    Info_198:
-      Name: assets/assetbundlelocal/prefabs/ui/vipbonus/uivipbonus.prefab.assetbundle
-      Dependencies: {}
-    Info_199:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paylib_s.png.assetbundle
-      Dependencies: {}
-    Info_200:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/utility/hiddenpass.mat.assetbundle
-      Dependencies: {}
-    Info_201:
-      Name: assets/assetbundlelocal/json/levels/lv_40.json.assetbundle
-      Dependencies: {}
-    Info_202:
-      Name: assets/game/sprites/boards/3 circle.png.assetbundle
-      Dependencies: {}
-    Info_203:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/head.png.assetbundle
-      Dependencies: {}
-    Info_204:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-skeleton.png.assetbundle
-      Dependencies: {}
-    Info_205:
-      Name: assets/game/sprites/boards/1 new graphic/13 rectangle sides/rectangle
-        side 1_4.png.assetbundle
-      Dependencies: {}
-    Info_206:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_01.prefab.assetbundle
-      Dependencies: {}
-    Info_207:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/spritedepthnormalstexture.shader.assetbundle
-      Dependencies: {}
-    Info_208:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/skeletondatamodifierassets/blendmodematerials/skeletonstraightadditive.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_209:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicscreen-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_210:
-      Name: assets/assetbundlelocal/json/levels/lv_54.json.assetbundle
-      Dependencies: {}
-    Info_211:
-      Name: assets/assetbundlelocal/audio/click2.wav.assetbundle
-      Dependencies: {}
-    Info_212:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/face side.png.assetbundle
-      Dependencies: {}
-    Info_213:
-      Name: assets/assetbundlelocal/ui/paytype/icon/bbva_s.png.assetbundle
-      Dependencies: {}
-    Info_214:
-      Name: assets/assetbundlelocal/json/levels/lv_14.json.assetbundle
-      Dependencies: {}
-    Info_215:
-      Name: assets/game/sprites/boards/1 new graphic/9right side of rectangle/rectangle
-        side 0.9.png.assetbundle
-      Dependencies: {}
-    Info_216:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-outline.shader.assetbundle
-      Dependencies: {}
-    Info_217:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/sofort.png.assetbundle
-      Dependencies: {}
-    Info_218:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/under layer 1 flower
-        pot edge.png.assetbundle
-      Dependencies: {}
-    Info_219:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish.png.assetbundle
-      Dependencies: {}
-    Info_220:
-      Name: assets/assetbundlelocal/prefabs/ui/rank/uirank.prefab.assetbundle
-      Dependencies: {}
-    Info_221:
-      Name: assets/game/sprites/boards/1 new graphic/16 squares/square.png.assetbundle
-      Dependencies: {}
-    Info_222:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-skeleton-tintblack.shader.assetbundle
-      Dependencies: {}
-    Info_223:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-event.png.assetbundle
-      Dependencies: {}
-    Info_224:
-      Name: assets/assetbundlelocal/ui/paytype/icon/sofort_s.png.assetbundle
-      Dependencies: {}
-    Info_225:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangle sides/rectangle
-        side 0.9.png.assetbundle
-      Dependencies: {}
-    Info_226:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/4side.png.assetbundle
-      Dependencies: {}
-    Info_227:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicdefaultoutline-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-outline.shader.assetbundle
-    Info_228:
-      Name: assets/assetbundlelocal/prefabs/ui/popup/uipopup.prefab.assetbundle
-      Dependencies: {}
-    Info_229:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 851-2.png.assetbundle
-      Dependencies: {}
-    Info_230:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constraintphysics.png.assetbundle
-      Dependencies: {}
-    Info_231:
-      Name: assets/game/sprites/boards/1 new graphic/4 triangles/triangle 0.6.png.assetbundle
-      Dependencies: {}
-    Info_232:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/2side.png.assetbundle
-      Dependencies: {}
-    Info_233:
-      Name: assets/ui/common/img_neirongkuang_800.png.assetbundle
-      Dependencies: {}
-    Info_234:
-      Name: assets/assetbundlelocal/json/levels/lv_57.json.assetbundle
-      Dependencies: {}
-    Info_235:
-      Name: assets/assetbundlelocal/json/levels/lv_25.json.assetbundle
-      Dependencies: {}
-    Info_236:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-skin.png.assetbundle
-      Dependencies: {}
-    Info_237:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-posebones.png.assetbundle
-      Dependencies: {}
-    Info_238:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-image.png.assetbundle
-      Dependencies: {}
-    Info_239:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/petal edge under
-        layer 2.png.assetbundle
-      Dependencies: {}
-    Info_240:
-      Name: assets/game/sprites/boards/1 new graphic/6 pentagons/pentagon 0.7.png.assetbundle
-      Dependencies: {}
-    Info_241:
-      Name: assets/assetbundlelocal/json/levels/lv_34.json.assetbundle
-      Dependencies: {}
-    Info_242:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicdefaultgrayscale-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_243:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/cameradepthtexture.shader.assetbundle
-      Dependencies: {}
-    Info_244:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-lit-outline.shader.assetbundle
-      Dependencies: {}
-    Info_245:
       Name: assets/assetbundlelocal/ui/paytype/togglepic/bbva.png.assetbundle
       Dependencies: {}
-    Info_246:
-      Name: assets/ui/prop/texiao_faguang.png.assetbundle
+    Info_6:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/etransfer.png.assetbundle
       Dependencies: {}
-    Info_247:
-      Name: assets/assetbundlelocal/json/levels/lv_33.json.assetbundle
-      Dependencies: {}
-    Info_248:
-      Name: assets/assetbundlelocal/prefabs/ui/task/uitask.prefab.assetbundle
-      Dependencies: {}
-    Info_249:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/1.png.assetbundle
-      Dependencies: {}
-    Info_250:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-skeleton-lit-zwrite.shader.assetbundle
-      Dependencies: {}
-    Info_251:
-      Name: assets/game/sprites/boards/1 new graphic/3 elliptical edges/ellipse edge
-        1.0.png.assetbundle
-      Dependencies: {}
-    Info_252:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/spritespixellit.shader.assetbundle
-      Dependencies: {}
-    Info_253:
-      Name: assets/game/sprites/boards/16 quadrilateral sides.png.assetbundle
-      Dependencies: {}
-    Info_254:
-      Name: assets/assetbundlelocal/ui/paytype/icon/pix_s.png.assetbundle
-      Dependencies: {}
-    Info_255:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/3.png.assetbundle
-      Dependencies: {}
-    Info_256:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicdefaultoutline-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-outline.shader.assetbundle
-    Info_257:
-      Name: assets/assetbundlelocal/json/levels/lv_0.json.assetbundle
-      Dependencies: {}
-    Info_258:
-      Name: assets/game/sprites/boards/1 new graphic/11 regular hexagon images/regular
-        hexagon 0.5.png.assetbundle
-      Dependencies: {}
-    Info_259:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5-2/1.png.assetbundle
-      Dependencies: {}
-    Info_260:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicdefault-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_261:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/2side.png.assetbundle
-      Dependencies: {}
-    Info_262:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphictintblackadditive-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-additive.shader.assetbundle
-    Info_263:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paypal_s.png.assetbundle
-      Dependencies: {}
-    Info_264:
-      Name: assets/assetbundlelocal/json/levels/lv_19.json.assetbundle
-      Dependencies: {}
-    Info_265:
-      Name: assets/game/sprites/boards/1 new graphic/4 triangle sides/triangle side
-        0.6.png.assetbundle
-      Dependencies: {}
-    Info_266:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-special-skeleton-grayscale.shader.assetbundle
-      Dependencies: {}
-    Info_267:
-      Name: assets/game/sprites/boards/1 new graphic/1 horizontal bar/1 strip 0.6.png.assetbundle
-      Dependencies: {}
-    Info_268:
-      Name: assets/ui/common/input_n.png.assetbundle
-      Dependencies: {}
-    Info_269:
-      Name: assets/assetbundlelocal/spine/changelog.md.assetbundle
-      Dependencies: {}
-    Info_270:
-      Name: assets/game/sprites/boards/7 love.png.assetbundle
-      Dependencies: {}
-    Info_271:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/3side.png.assetbundle
-      Dependencies: {}
-    Info_272:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/2side.png.assetbundle
-      Dependencies: {}
-    Info_273:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/3side.png.assetbundle
-      Dependencies: {}
-    Info_274:
-      Name: assets/game/sprites/boards/1 new graphic/9 rectangle right/rectangle
-        0.8.png.assetbundle
-      Dependencies: {}
-    Info_275:
-      Name: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-      Dependencies: {}
-    Info_276:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphictintblackscreen-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-screen.shader.assetbundle
-    Info_277:
-      Name: assets/game/sprites/boards/17 hats.png.assetbundle
-      Dependencies: {}
-    Info_278:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/left petal edge on
-        layer 3.png.assetbundle
-      Dependencies: {}
-    Info_279:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 851.png.assetbundle
-      Dependencies: {}
-    Info_280:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicmultiply-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_281:
-      Name: assets/assetbundlelocal/json/levels/lv_49.json.assetbundle
-      Dependencies: {}
-    Info_282:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/4.png.assetbundle
-      Dependencies: {}
-    Info_283:
-      Name: assets/assetbundlelocal/ui/logo/german_logo.png.assetbundle
-      Dependencies: {}
-    Info_284:
-      Name: assets/assetbundlelocal/json/levels/lv_59.json.assetbundle
-      Dependencies: {}
-    Info_285:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/sprite/cameranormalstexture.shader.assetbundle
-      Dependencies: {}
-    Info_286:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicdefault-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_287:
-      Name: assets/assetbundlelocal/spine/package.json.assetbundle
-      Dependencies: {}
-    Info_288:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constrainttransform.png.assetbundle
-      Dependencies: {}
-    Info_289:
-      Name: assets/assetbundlelocal/json/levels/lv_26.json.assetbundle
-      Dependencies: {}
-    Info_290:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/2side.png.assetbundle
-      Dependencies: {}
-    Info_291:
-      Name: assets/assetbundlelocal/prefabs/ui/restart/uirestart.prefab.assetbundle
-      Dependencies: {}
-    Info_292:
-      Name: assets/assetbundlelocal/json/levels/lv_20.json.assetbundle
-      Dependencies: {}
-    Info_293:
-      Name: assets/assetbundlelocal/ui/paytype/icon/zelle_s.png.assetbundle
-      Dependencies: {}
-    Info_294:
-      Name: assets/assetbundlelocal/json/levels/lv_50.json.assetbundle
-      Dependencies: {}
-    Info_295:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/left leaf edge on
-        layer 5.png.assetbundle
-      Dependencies: {}
-    Info_296:
-      Name: assets/assetbundlelocal/json/levels/lv_51.json.assetbundle
-      Dependencies: {}
-    Info_297:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-hingechain.png.assetbundle
-      Dependencies: {}
-    Info_298:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constraintnib.png.assetbundle
-      Dependencies: {}
-    Info_299:
-      Name: assets/game/sprites/boards/13 lace.png.assetbundle
-      Dependencies: {}
-    Info_300:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/left leaf on layer
-        5.png.assetbundle
-      Dependencies: {}
-    Info_301:
-      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop2.png.assetbundle
-      Dependencies: {}
-    Info_302:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/beside feet.png.assetbundle
-      Dependencies: {}
-    Info_303:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/3side.png.assetbundle
-      Dependencies: {}
-    Info_304:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicmultiply-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_305:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/spine-skeleton-fill.shader.assetbundle
-      Dependencies: {}
-    Info_306:
-      Name: assets/assetbundlelocal/json/levels/lv_44.json.assetbundle
-      Dependencies: {}
-    Info_307:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack.shader.assetbundle
-      Dependencies: {}
-    Info_308:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-fill-outline.shader.assetbundle
-      Dependencies: {}
-    Info_309:
-      Name: assets/game/sprites/boards/1 new graphic/4 triangle sides/triangle side
-        0.5.png.assetbundle
-      Dependencies: {}
-    Info_310:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-null.png.assetbundle
-      Dependencies: {}
-    Info_311:
-      Name: assets/assetbundlelocal/audio/operate.wav.assetbundle
-      Dependencies: {}
-    Info_312:
-      Name: assets/assetbundlelocal/audio/changeorder.wav.assetbundle
-      Dependencies: {}
-    Info_313:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphicfill.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic-fill.shader.assetbundle
-    Info_314:
-      Name: assets/game/sprites/boards/16 squares.png.assetbundle
-      Dependencies: {}
-    Info_315:
-      Name: assets/game/sprites/boards/2 triangle sides.png.assetbundle
-      Dependencies: {}
-    Info_316:
-      Name: assets/assetbundlelocal/json/levels/lv_56.json.assetbundle
-      Dependencies: {}
-    Info_317:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-submeshrenderer.png.assetbundle
-      Dependencies: {}
-    Info_318:
-      Name: assets/game/sprites/boards/1 new graphic/1 horizontal stripe edge/1 horizontal
-        strip edge 1.7.png.assetbundle
-      Dependencies: {}
-    Info_319:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constraintik.png.assetbundle
-      Dependencies: {}
-    Info_320:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-slotroot.png.assetbundle
-      Dependencies: {}
-    Info_321:
-      Name: assets/game/sprites/boards/1 new graphic/9 rectangle right/rectangle
-        0.9.png.assetbundle
-      Dependencies: {}
-    Info_322:
-      Name: assets/assetbundlelocal/ui/logo/korean_logo.png.assetbundle
-      Dependencies: {}
-    Info_323:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-animationroot.png.assetbundle
-      Dependencies: {}
-    Info_324:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicfill-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic-fill.shader.assetbundle
-    Info_325:
-      Name: assets/assetbundlelocal/ui/logo/spanish_logo.png.assetbundle
-      Dependencies: {}
-    Info_326:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphictintblackoutline-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-tintblack-outline.shader.assetbundle
-    Info_327:
-      Name: assets/assetbundlelocal/json/levels/lv_48.json.assetbundle
-      Dependencies: {}
-    Info_328:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-clipping.png.assetbundle
-      Dependencies: {}
-    Info_329:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/4 side.png.assetbundle
-      Dependencies: {}
-    Info_330:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicscreen-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_331:
-      Name: assets/assetbundlelocal/json/levels/lv_23.json.assetbundle
-      Dependencies: {}
-    Info_332:
-      Name: assets/assetbundlelocal/json/levels/lv_58.json.assetbundle
-      Dependencies: {}
-    Info_333:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-tintblack-outline.shader.assetbundle
-      Dependencies: {}
-    Info_334:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish-patterned
-        edges.png.assetbundle
-      Dependencies: {}
-    Info_335:
-      Name: assets/game/sprites/boards/1 new graphic/14 triangle/triangle 1.png.assetbundle
-      Dependencies: {}
-    Info_336:
-      Name: assets/assetbundlelocal/ui/paytype/icon/picpay_s.png.assetbundle
-      Dependencies: {}
-    Info_337:
-      Name: assets/assetbundlelocal/json/levels/lv_22.json.assetbundle
-      Dependencies: {}
-    Info_338:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/1.png.assetbundle
-      Dependencies: {}
-    Info_339:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-screen.shader.assetbundle
-      Dependencies: {}
-    Info_340:
-      Name: assets/assetbundlelocal/config/pathbundleconfig.bytes.assetbundle
-      Dependencies: {}
-    Info_341:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/body.png.assetbundle
-      Dependencies: {}
-    Info_342:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/central circle on
-        layer 1.png.assetbundle
-      Dependencies: {}
-    Info_343:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangle sides/rectangle
-        side 1.0.png.assetbundle
-      Dependencies: {}
-    Info_344:
-      Name: assets/game/sprites/boards/1 new graphic/3 elliptical edges/ellipse edge
-        1.01_16.png.assetbundle
-      Dependencies: {}
-    Info_345:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/1side.png.assetbundle
-      Dependencies: {}
-    Info_346:
-      Name: assets/assetbundlelocal/audio/gamewin.wav.assetbundle
-      Dependencies: {}
-    Info_347:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/layer 1 - flower
-        pot side.png.assetbundle
-      Dependencies: {}
-    Info_348:
+    Info_7:
       Name: assets/assetbundlelocal/ui/paytype/togglepic/other.png.assetbundle
       Dependencies: {}
-    Info_349:
-      Name: assets/assetbundlelocal/audio/bgm.ogg.assetbundle
-      Dependencies: {}
-    Info_350:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/pix.png.assetbundle
-      Dependencies: {}
-    Info_351:
-      Name: assets/game/sprites/boards/20 something.png.assetbundle
-      Dependencies: {}
-    Info_352:
-      Name: assets/assetbundlelocal/json/levels/lv_60.json.assetbundle
-      Dependencies: {}
-    Info_353:
-      Name: assets/game/sprites/boards/1 square.png.assetbundle
-      Dependencies: {}
-    Info_354:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-skeleton-outlineonly-zwrite.shader.assetbundle
-      Dependencies: {}
-    Info_355:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/beside the head.png.assetbundle
-      Dependencies: {}
-    Info_356:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/blendmodes/spine-skeleton-pma-screen-outline.shader.assetbundle
-      Dependencies: {}
-    Info_357:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/3 side.png.assetbundle
-      Dependencies: {}
-    Info_358:
-      Name: assets/assetbundlelocal/prefabs/game/levels/lv_6.prefab.assetbundle
-      Dependencies: {}
-    Info_359:
-      Name: assets/game/sprites/boards/1 new graphic/13 rectangles/rectangle 1_4.png.assetbundle
-      Dependencies: {}
-    Info_360:
-      Name: assets/assetbundlelocal/audio/ropetexture3.wav.assetbundle
-      Dependencies: {}
-    Info_361:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-path.png.assetbundle
-      Dependencies: {}
-    Info_362:
-      Name: assets/assetbundlelocal/json/levels/lv_21.json.assetbundle
-      Dependencies: {}
-    Info_363:
-      Name: assets/assetbundlelocal/json/levels/lv_28.json.assetbundle
-      Dependencies: {}
-    Info_364:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphictintblackscreen.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-screen.shader.assetbundle
-    Info_365:
-      Name: assets/game/sprites/boards/13 flowers.png.assetbundle
-      Dependencies: {}
-    Info_366:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphictintblack-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack.shader.assetbundle
-    Info_367:
-      Name: assets/game/sprites/boards/1 new graphic/14 triangle sides/one side of
-        a triangle.png.assetbundle
-      Dependencies: {}
-    Info_368:
-      Name: assets/ui/common/btn_yellow.png.assetbundle
-      Dependencies: {}
-    Info_369:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/skrill.png.assetbundle
-      Dependencies: {}
-    Info_370:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/4.png.assetbundle
-      Dependencies: {}
-    Info_371:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-spine.png.assetbundle
-      Dependencies: {}
-    Info_372:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/2.png.assetbundle
-      Dependencies: {}
-    Info_373:
-      Name: assets/assetbundlelocal/json/levels/lv_4.json.assetbundle
-      Dependencies: {}
-    Info_374:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/paylib.png.assetbundle
-      Dependencies: {}
-    Info_375:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/2side.png.assetbundle
-      Dependencies: {}
-    Info_376:
-      Name: assets/assetbundlelocal/ui/paytype/icon/etransfer_s.png.assetbundle
-      Dependencies: {}
-    Info_377:
-      Name: assets/tools/easytouchbundle/easytouch/example/_medias/materials/floor.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/tools/easytouchbundle/easytouchcontrols/examples/_medias/textures/texture.jpg.assetbundle
-    Info_378:
-      Name: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
-      Dependencies: {}
-    Info_379:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 852-2.png.assetbundle
-      Dependencies: {}
-    Info_380:
-      Name: assets/assetbundlelocal/audio/levelcomplete.wav.assetbundle
-      Dependencies: {}
-    Info_381:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-skeletonutility.png.assetbundle
-      Dependencies: {}
-    Info_382:
-      Name: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
-      Dependencies: {}
-    Info_383:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/4.png.assetbundle
-      Dependencies: {}
-    Info_384:
-      Name: assets/assetbundlelocal/audio/button.wav.assetbundle
-      Dependencies: {}
-    Info_385:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/2side.png.assetbundle
-      Dependencies: {}
-    Info_386:
-      Name: assets/game/sprites/boards/1 new graphic/6 pentagon sides/pentagon side
-        0.7.png.assetbundle
-      Dependencies: {}
-    Info_387:
-      Name: assets/assetbundlelocal/json/levels/lv_3.json.assetbundle
-      Dependencies: {}
-    Info_388:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/canvasgroup/skeletongraphicadditive-canvasgroupstraight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_389:
-      Name: assets/assetbundlelocal/audio/ropetexture2.wav.assetbundle
-      Dependencies: {}
-    Info_390:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-4/1.png.assetbundle
-      Dependencies: {}
-    Info_391:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicscreen-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_392:
-      Name: assets/ui/common/tixian_qianshu_bg.png.assetbundle
-      Dependencies: {}
-    Info_393:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/1 side.png.assetbundle
-      Dependencies: {}
-    Info_394:
-      Name: assets/assetbundlelocal/json/levels/lv_37.json.assetbundle
-      Dependencies: {}
-    Info_395:
-      Name: assets/assetbundlelocal/json/levels/lv_36.json.assetbundle
-      Dependencies: {}
-    Info_396:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/flower pot edge -
-        under layer 1.png.assetbundle
-      Dependencies: {}
-    Info_397:
-      Name: assets/game/sprites/boards/1 new graphic/3 ellipses/ellipse1_16.png.assetbundle
-      Dependencies: {}
-    Info_398:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangles/rectangle 0.8.png.assetbundle
-      Dependencies: {}
-    Info_399:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/utility/hidden-spine-bones.shader.assetbundle
-      Dependencies: {}
-    Info_400:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-3-2/layer 852.png.assetbundle
-      Dependencies: {}
-    Info_401:
-      Name: assets/assetbundlelocal/json/levels/lv_24.json.assetbundle
-      Dependencies: {}
-    Info_402:
-      Name: assets/game/sprites/boards/1 new graphic/1 horizontal stripe edge/1 horizontal
-        strip edge 0.6.png.assetbundle
-      Dependencies: {}
-    Info_403:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-bone.png.assetbundle
-      Dependencies: {}
-    Info_404:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-3/3.png.assetbundle
-      Dependencies: {}
-    Info_405:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/blendmodes/spine-skeleton-pma-additive-outline.shader.assetbundle
-      Dependencies: {}
-    Info_406:
-      Name: assets/assetbundlelocal/ui/logo/japanese_logo.png.assetbundle
-      Dependencies: {}
-    Info_407:
-      Name: assets/assetbundlelocal/json/levels/lv_46.json.assetbundle
-      Dependencies: {}
-    Info_408:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/besidebody.png.assetbundle
-      Dependencies: {}
-    Info_409:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-straightalphatex/skeletongraphicmultiply-straight.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
-    Info_410:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/spine-special-skeleton-grayscale-outline.shader.assetbundle
-      Dependencies: {}
-    Info_411:
-      Name: assets/game/sprites/boards/1 new graphic/1 horizontal bar/1 strip 1.7.png.assetbundle
-      Dependencies: {}
-    Info_412:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/right leaf edge on
-        layer 5.png.assetbundle
-      Dependencies: {}
-    Info_413:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/2.png.assetbundle
-      Dependencies: {}
-    Info_414:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5-2/1side.png.assetbundle
-      Dependencies: {}
-    Info_415:
-      Name: assets/game/sprites/boards/1 square side.png.assetbundle
-      Dependencies: {}
-    Info_416:
-      Name: assets/assetbundlelocal/json/levels/lv_42.json.assetbundle
-      Dependencies: {}
-    Info_417:
-      Name: assets/game/sprites/boards/1 new graphic/22 squares - 5 - 3/2.png.assetbundle
-      Dependencies: {}
-    Info_418:
-      Name: assets/game/sprites/boards/1 new graphic/16 square sides/square side.png.assetbundle
-      Dependencies: {}
-    Info_419:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangle sides/rectangle
-        side 0.8.png.assetbundle
-      Dependencies: {}
-    Info_420:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-outline.shader.assetbundle
-      Dependencies: {}
-    Info_421:
-      Name: assets/ui/common/tanchukuang2.png.assetbundle
-      Dependencies: {}
-    Info_422:
-      Name: assets/assetbundlelocal/json/levels/lv_27.json.assetbundle
-      Dependencies: {}
-    Info_423:
-      Name: assets/assetbundlelocal/json/levels/lv_52.json.assetbundle
-      Dependencies: {}
-    Info_424:
-      Name: assets/game/sprites/boards/1 new graphic/3 elliptical edges/ellipse edge
-        1.3.png.assetbundle
-      Dependencies: {}
-    Info_425:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphictintblackoutline.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-tintblack-outline.shader.assetbundle
-    Info_426:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/importerpresets/pmapresettemplate.png.assetbundle
-      Dependencies: {}
-    Info_427:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/1.png.assetbundle
-      Dependencies: {}
-    Info_428:
-      Name: assets/game/sprites/boards/1 new graphic/12 love/love 1.0.png.assetbundle
-      Dependencies: {}
-    Info_429:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/3side.png.assetbundle
-      Dependencies: {}
-    Info_430:
-      Name: assets/assetbundlelocal/json/levels/lv_1.json.assetbundle
-      Dependencies: {}
-    Info_431:
-      Name: assets/game/sprites/boards/1 new graphic/9right side of rectangle/rectangle
-        side 0.8.png.assetbundle
-      Dependencies: {}
-    Info_432:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-skinsroot.png.assetbundle
-      Dependencies: {}
-    Info_433:
+    Info_8:
       Name: assets/assetbundlelocal/ui/paytype/togglepic/pago.png.assetbundle
       Dependencies: {}
-    Info_434:
-      Name: assets/game/sprites/boards/1 new graphic/17 pentagon-5/5 side.png.assetbundle
+    Info_9:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/paylib.png.assetbundle
       Dependencies: {}
-    Info_435:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-additive.shader.assetbundle
+    Info_10:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
       Dependencies: {}
-    Info_436:
-      Name: assets/assetbundlelocal/json/levels/lv_17.json.assetbundle
+    Info_11:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/paypay.png.assetbundle
       Dependencies: {}
-    Info_437:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphicdefault-canvasgroup.mat.assetbundle
+    Info_12:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/picpay.png.assetbundle
+      Dependencies: {}
+    Info_13:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/pix.png.assetbundle
+      Dependencies: {}
+    Info_14:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/revolut.png.assetbundle
+      Dependencies: {}
+    Info_15:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/skrill.png.assetbundle
+      Dependencies: {}
+    Info_16:
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/sofort.png.assetbundle
+      Dependencies: {}
+    Info_17:
+      Name: assets/assetbundlelocal/prefabs/ui/enterinfomation/uienterinfomation.prefab.assetbundle
       Dependencies:
-        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_438:
-      Name: assets/game/sprites/boards/2 new graphics/66-flower/petal under layer
-        2.png.assetbundle
+        Dependency_0: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
+        Dependency_1: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_2: assets/ui/common/btn_close.png.assetbundle
+        Dependency_3: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_4: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_5: assets/ui/common/input_h.png.assetbundle
+        Dependency_6: assets/ui/common/tanchukuang2.png.assetbundle
+        Dependency_7: assets/ui/common/input_n.png.assetbundle
+    Info_18:
+      Name: assets/assetbundlelocal/ui/paytype/icon/bbva_s.png.assetbundle
       Dependencies: {}
-    Info_439:
-      Name: assets/assetbundlelocal/ui/paytype/icon/revolut_s.png.assetbundle
+    Info_19:
+      Name: assets/assetbundlelocal/ui/paytype/icon/etransfer_s.png.assetbundle
       Dependencies: {}
-    Info_440:
-      Name: assets/game/sprites/boards/2 new graphics/56-penguin/foot.png.assetbundle
+    Info_20:
+      Name: assets/assetbundlelocal/ui/paytype/icon/other_s 1.png.assetbundle
       Dependencies: {}
-    Info_441:
-      Name: assets/game/sprites/boards/8 water drop sides.png.assetbundle
+    Info_21:
+      Name: assets/assetbundlelocal/ui/paytype/icon/other_s.png.assetbundle
       Dependencies: {}
-    Info_442:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle - 4/4side.png.assetbundle
-      Dependencies: {}
-    Info_443:
-      Name: assets/assetbundlelocal/prefabs/ui/notice/uinotice.prefab.assetbundle
-      Dependencies: {}
-    Info_444:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/skeletongraphictintblackmultiply.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-multiply.shader.assetbundle
-    Info_445:
-      Name: assets/game/sprites/boards/1 new graphic/20 hexagon-5/3.png.assetbundle
-      Dependencies: {}
-    Info_446:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphictintblack-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack.shader.assetbundle
-    Info_447:
-      Name: assets/assetbundlelocal/json/levels/lv_11.json.assetbundle
-      Dependencies: {}
-    Info_448:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5/4side.png.assetbundle
-      Dependencies: {}
-    Info_449:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/blendmodes/spine-skeleton-pma-multiply-outline.shader.assetbundle
-      Dependencies: {}
-    Info_450:
-      Name: assets/game/sprites/boards/1 new graphic/21 circle-5-2/3side.png.assetbundle
-      Dependencies: {}
-    Info_451:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-mesh.png.assetbundle
-      Dependencies: {}
-    Info_452:
-      Name: assets/game/sprites/boards/1 new graphic/2 rectangles/rectangle 1.0.png.assetbundle
-      Dependencies: {}
-    Info_453:
+    Info_22:
       Name: assets/assetbundlelocal/ui/paytype/icon/pago_s.png.assetbundle
       Dependencies: {}
-    Info_454:
-      Name: assets/game/sprites/boards/1 new graphic/18 triangle-3-2/3side.png.assetbundle
+    Info_23:
+      Name: assets/assetbundlelocal/ui/paytype/icon/paylib_s.png.assetbundle
       Dependencies: {}
-    Info_455:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish edge.png.assetbundle
+    Info_24:
+      Name: assets/assetbundlelocal/ui/paytype/icon/paypal_s.png.assetbundle
       Dependencies: {}
-    Info_456:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphictintblackoutline-canvasgroup.mat.assetbundle
+    Info_25:
+      Name: assets/assetbundlelocal/ui/paytype/icon/paypay_s.png.assetbundle
+      Dependencies: {}
+    Info_26:
+      Name: assets/assetbundlelocal/ui/paytype/icon/picpay_s.png.assetbundle
+      Dependencies: {}
+    Info_27:
+      Name: assets/assetbundlelocal/ui/paytype/icon/pix_s.png.assetbundle
+      Dependencies: {}
+    Info_28:
+      Name: assets/assetbundlelocal/ui/paytype/icon/revolut_s.png.assetbundle
+      Dependencies: {}
+    Info_29:
+      Name: assets/assetbundlelocal/ui/paytype/icon/skrill_s.png.assetbundle
+      Dependencies: {}
+    Info_30:
+      Name: assets/assetbundlelocal/ui/paytype/icon/sofort_s.png.assetbundle
+      Dependencies: {}
+    Info_31:
+      Name: assets/assetbundlelocal/ui/paytype/icon/venmo_s.png.assetbundle
+      Dependencies: {}
+    Info_32:
+      Name: assets/assetbundlelocal/ui/paytype/icon/zelle_s.png.assetbundle
+      Dependencies: {}
+    Info_33:
+      Name: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+      Dependencies: {}
+    Info_34:
+      Name: assets/assetbundlelocal/ui/logo/brazilian_portuguese_logo.png.assetbundle
+      Dependencies: {}
+    Info_35:
+      Name: assets/assetbundlelocal/prefabs/ui/loading/uiloading.prefab.assetbundle
+      Dependencies: {}
+    Info_36:
+      Name: assets/assetbundlelocal/ui/logo/french_logo.png.assetbundle
+      Dependencies: {}
+    Info_37:
+      Name: assets/assetbundlelocal/ui/logo/german_logo.png.assetbundle
+      Dependencies: {}
+    Info_38:
+      Name: assets/assetbundlelocal/ui/logo/indonesian_logo.png.assetbundle
+      Dependencies: {}
+    Info_39:
+      Name: assets/assetbundlelocal/ui/logo/japanese_logo.png.assetbundle
+      Dependencies: {}
+    Info_40:
+      Name: assets/assetbundlelocal/ui/logo/korean_logo.png.assetbundle
+      Dependencies: {}
+    Info_41:
+      Name: assets/assetbundlelocal/ui/logo/spanish_logo.png.assetbundle
+      Dependencies: {}
+    Info_42:
+      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop1.png.assetbundle
+      Dependencies: {}
+    Info_43:
+      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop2.png.assetbundle
+      Dependencies: {}
+    Info_44:
+      Name: assets/assetbundlelocal/prefabs/ui/prop/uiprop.prefab.assetbundle
       Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/outline/skeletongraphic/spine-skeletongraphic-tintblack-outline.shader.assetbundle
-    Info_457:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_close.png.assetbundle
+        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_4: assets/ui/common/planebg.png.assetbundle
+        Dependency_5: assets/ui/prop/texiao_faguang.png.assetbundle
+        Dependency_6: assets/ui/common/icon_move.png.assetbundle
+    Info_45:
+      Name: assets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+        Dependency_1: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+        Dependency_2: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_3: assets/ui/gameplay/gameplaybg.png.assetbundle
+        Dependency_4: assets/ui/common/icon_move.png.assetbundle
+    Info_46:
+      Name: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+      Dependencies: {}
+    Info_47:
+      Name: assets/assetbundlelocal/prefabs/ui/withdrawalrecords/uiwithdrawalrecords.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
+        Dependency_2: assets/ui/common/tixian_qianshu_bg.png.assetbundle
+        Dependency_3: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
+        Dependency_4: assets/ui/common/btn_close.png.assetbundle
+    Info_48:
+      Name: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+      Dependencies: {}
+    Info_49:
+      Name: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
+      Dependencies: {}
+    Info_50:
+      Name: assets/ui/common/tixian_qianshu_bg.png.assetbundle
+      Dependencies: {}
+    Info_51:
+      Name: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
+      Dependencies: {}
+    Info_52:
+      Name: assets/ui/common/btn_close.png.assetbundle
+      Dependencies: {}
+    Info_53:
+      Name: assets/assetbundlelocal/prefabs/ui/withdrawalamount/uiwithdrawalamount.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/tixian_qianshu_bg.png.assetbundle
+        Dependency_2: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
+        Dependency_3: assets/ui/common/btn_close.png.assetbundle
+        Dependency_4: assets/ui/common/btn_yellow.png.assetbundle
+    Info_54:
+      Name: assets/ui/common/btn_yellow.png.assetbundle
+      Dependencies: {}
+    Info_55:
+      Name: assets/assetbundlelocal/prefabs/ui/userlevel/uiuserlevel.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_close.png.assetbundle
+        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_4: assets/ui/common/jindutiao_664_h.png.assetbundle
+        Dependency_5: assets/ui/common/jindutiao_664.png.assetbundle
+        Dependency_6: assets/ui/common/planebg.png.assetbundle
+    Info_56:
+      Name: assets/ui/common/img_neirongkuang_800.png.assetbundle
+      Dependencies: {}
+    Info_57:
+      Name: assets/ui/common/jindutiao_664_h.png.assetbundle
+      Dependencies: {}
+    Info_58:
       Name: assets/ui/common/jindutiao_664.png.assetbundle
       Dependencies: {}
-    Info_458:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-constraints.png.assetbundle
+    Info_59:
+      Name: assets/ui/common/planebg.png.assetbundle
       Dependencies: {}
-    Info_459:
-      Name: assets/assetbundlelocal/spine/editor/spine-unity/editor/gui/icon-boundingbox.png.assetbundle
-      Dependencies: {}
-    Info_460:
-      Name: assets/assetbundlelocal/spine/runtime/spine-unity/materials/ui-pmatexture/canvasgroup/skeletongraphictintblackscreen-canvasgroup.mat.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/spine/runtime/spine-unity/shaders/skeletongraphic/tintblack/spine-skeletongraphic-tintblack-screen.shader.assetbundle
-    Info_461:
-      Name: assets/assetbundlelocal/json/levels/lv_47.json.assetbundle
-      Dependencies: {}
-    Info_462:
-      Name: assets/assetbundlelocal/audio/levelfailed.wav.assetbundle
-      Dependencies: {}
-    Info_463:
-      Name: assets/assetbundlelocal/spine/runtime/spine-csharp/package.json.assetbundle
-      Dependencies: {}
-    Info_464:
-      Name: assets/game/sprites/boards/2 new graphics/53 - radish/radish leaves.png.assetbundle
-      Dependencies: {}
-    Info_465:
-      Name: assets/game/sprites/boards/1 new graphic/23 trapezoid-4/2.png.assetbundle
-      Dependencies: {}
-    Info_466:
-      Name: assets/assetbundlelocal/videos/video1.mp4.assetbundle
-      Dependencies: {}
-    Info_467:
-      Name: assets/assetbundlelocal/videos/video4.mp4.assetbundle
-      Dependencies: {}
-    Info_468:
-      Name: assets/assetbundlelocal/prefabs/ui/uigametest/uigametest.prefab.assetbundle
-      Dependencies: {}
-    Info_469:
-      Name: assets/assetbundlelocal/videos/video3.mp4.assetbundle
-      Dependencies: {}
-    Info_470:
-      Name: assets/ui/gameplay/gameplaybg.png.assetbundle
-      Dependencies: {}
-    Info_471:
-      Name: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-      Dependencies: {}
-    Info_472:
+    Info_60:
       Name: assets/assetbundlelocal/prefabs/ui/uiselectionpanel/uiselectionpanel.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/ui/gameplay/gameplaybg.png.assetbundle
-    Info_473:
-      Name: assets/assetbundlelocal/videos/video2.mp4.assetbundle
+    Info_61:
+      Name: assets/ui/gameplay/gameplaybg.png.assetbundle
       Dependencies: {}
-    Info_474:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/venmo.png.assetbundle
+    Info_62:
+      Name: assets/assetbundlelocal/prefabs/ui/uigametest/uigametest.prefab.assetbundle
       Dependencies: {}
-    Info_475:
-      Name: assets/assetbundlelocal/ui/paytype/togglepic/zelle.png.assetbundle
-      Dependencies: {}
-    Info_476:
-      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop3.png.assetbundle
-      Dependencies: {}
-    Info_477:
-      Name: assets/assetbundlelocal/prefabs/ui/timeline/uitimeline.prefab.assetbundle
+    Info_63:
+      Name: assets/assetbundlelocal/prefabs/ui/setting/uisetting.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/loading/loadingbg.jpg.assetbundle
-    Info_478:
-      Name: assets/ui/loading/loadingbg.jpg.assetbundle
+        Dependency_1: assets/ui/common/btn_close.png.assetbundle
+        Dependency_2: assets/ui/common/planebg.png.assetbundle
+    Info_64:
+      Name: assets/assetbundlelocal/prefabs/ui/restart/uirestart.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_close.png.assetbundle
+        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_4: assets/ui/common/planebg.png.assetbundle
+        Dependency_5: assets/ui/prop/texiao_faguang.png.assetbundle
+    Info_65:
+      Name: assets/ui/prop/texiao_faguang.png.assetbundle
+      Dependencies: {}
+    Info_66:
+      Name: assets/ui/common/icon_move.png.assetbundle
+      Dependencies: {}
+    Info_67:
+      Name: assets/assetbundlelocal/prefabs/ui/notice/noticeitem.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+    Info_68:
+      Name: assets/assetbundlelocal/prefabs/ui/notice/uinotice.prefab.assetbundle
+      Dependencies: {}
+    Info_69:
+      Name: assets/assetbundlelocal/prefabs/ui/luckyreward/uiluckyreward.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_2: assets/ui/common/icon_move.png.assetbundle
+        Dependency_3: assets/ui/common/btn_green.png.assetbundle
+    Info_70:
+      Name: assets/ui/common/btn_green.png.assetbundle
+      Dependencies: {}
+    Info_71:
+      Name: assets/assetbundlelocal/prefabs/ui/levelfailure/uilevelfailure.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_2: assets/ui/common/jindutiao_664_h.png.assetbundle
+        Dependency_3: assets/ui/common/jindutiao_664.png.assetbundle
+        Dependency_4: assets/ui/common/icon_move.png.assetbundle
+        Dependency_5: assets/ui/common/btn_green.png.assetbundle
+        Dependency_6: assets/ui/common/img_huakuang_bg.png.assetbundle
+    Info_72:
+      Name: assets/ui/common/img_huakuang_bg.png.assetbundle
+      Dependencies: {}
+    Info_73:
+      Name: assets/assetbundlelocal/prefabs/ui/levelcompleted/uilevelcompleted.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_2: assets/ui/common/icon_move.png.assetbundle
+        Dependency_3: assets/ui/common/btn_green.png.assetbundle
+        Dependency_4: assets/ui/common/img_huakuang_bg.png.assetbundle
+    Info_74:
+      Name: assets/assetbundlelocal/prefabs/ui/guide/uiguide.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+    Info_75:
+      Name: assets/assetbundlelocal/prefabs/ui/feedback/uifeedback.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/common/btn_close.png.assetbundle
+        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_4: assets/ui/common/input_h.png.assetbundle
+        Dependency_5: assets/ui/common/tanchukuang2.png.assetbundle
+        Dependency_6: assets/ui/common/input_n.png.assetbundle
+    Info_76:
+      Name: assets/ui/common/input_h.png.assetbundle
+      Dependencies: {}
+    Info_77:
+      Name: assets/ui/common/tanchukuang2.png.assetbundle
+      Dependencies: {}
+    Info_78:
+      Name: assets/ui/common/input_n.png.assetbundle
+      Dependencies: {}
+    Info_79:
+      Name: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
+      Dependencies: {}
+    Info_80:
+      Name: assets/assetbundlelocal/prefabs/ui/confirm/uiconfirm.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
+        Dependency_1: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_2: assets/ui/common/btn_close.png.assetbundle
+        Dependency_3: assets/ui/common/btn_yellow.png.assetbundle
+        Dependency_4: assets/ui/common/img_neirongkuang_800.png.assetbundle
+        Dependency_5: assets/ui/common/tanchukuang2.png.assetbundle
+    Info_81:
+      Name: assets/assetbundlelocal/materials/skeletongraphicdefault2.mat.assetbundle
+      Dependencies:
+        Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
+    Info_82:
+      Name: assets/assetbundlelocal/json/levels/lv_0.json.assetbundle
+      Dependencies: {}
+    Info_83:
+      Name: assets/assetbundlelocal/json/levels/lv_1.json.assetbundle
+      Dependencies: {}
+    Info_84:
+      Name: assets/assetbundlelocal/json/levels/lv_10.json.assetbundle
+      Dependencies: {}
+    Info_85:
+      Name: assets/assetbundlelocal/json/levels/lv_11.json.assetbundle
+      Dependencies: {}
+    Info_86:
+      Name: assets/assetbundlelocal/json/levels/lv_12.json.assetbundle
+      Dependencies: {}
+    Info_87:
+      Name: assets/assetbundlelocal/json/levels/lv_13.json.assetbundle
+      Dependencies: {}
+    Info_88:
+      Name: assets/assetbundlelocal/json/levels/lv_14.json.assetbundle
+      Dependencies: {}
+    Info_89:
+      Name: assets/assetbundlelocal/json/levels/lv_15.json.assetbundle
+      Dependencies: {}
+    Info_90:
+      Name: assets/assetbundlelocal/json/levels/lv_16.json.assetbundle
+      Dependencies: {}
+    Info_91:
+      Name: assets/assetbundlelocal/json/levels/lv_17.json.assetbundle
+      Dependencies: {}
+    Info_92:
+      Name: assets/assetbundlelocal/json/levels/lv_18.json.assetbundle
+      Dependencies: {}
+    Info_93:
+      Name: assets/assetbundlelocal/json/levels/lv_19.json.assetbundle
+      Dependencies: {}
+    Info_94:
+      Name: assets/assetbundlelocal/json/levels/lv_2.json.assetbundle
+      Dependencies: {}
+    Info_95:
+      Name: assets/assetbundlelocal/json/levels/lv_20.json.assetbundle
+      Dependencies: {}
+    Info_96:
+      Name: assets/assetbundlelocal/json/levels/lv_21.json.assetbundle
+      Dependencies: {}
+    Info_97:
+      Name: assets/assetbundlelocal/json/levels/lv_22.json.assetbundle
+      Dependencies: {}
+    Info_98:
+      Name: assets/assetbundlelocal/json/levels/lv_23.json.assetbundle
+      Dependencies: {}
+    Info_99:
+      Name: assets/assetbundlelocal/json/levels/lv_24.json.assetbundle
+      Dependencies: {}
+    Info_100:
+      Name: assets/assetbundlelocal/json/levels/lv_25.json.assetbundle
+      Dependencies: {}
+    Info_101:
+      Name: assets/assetbundlelocal/json/levels/lv_26.json.assetbundle
+      Dependencies: {}
+    Info_102:
+      Name: assets/assetbundlelocal/json/levels/lv_27.json.assetbundle
+      Dependencies: {}
+    Info_103:
+      Name: assets/assetbundlelocal/json/levels/lv_28.json.assetbundle
+      Dependencies: {}
+    Info_104:
+      Name: assets/assetbundlelocal/json/levels/lv_29.json.assetbundle
+      Dependencies: {}
+    Info_105:
+      Name: assets/assetbundlelocal/json/levels/lv_3.json.assetbundle
+      Dependencies: {}
+    Info_106:
+      Name: assets/assetbundlelocal/json/levels/lv_30.json.assetbundle
+      Dependencies: {}
+    Info_107:
+      Name: assets/assetbundlelocal/json/levels/lv_31.json.assetbundle
+      Dependencies: {}
+    Info_108:
+      Name: assets/assetbundlelocal/json/levels/lv_32.json.assetbundle
+      Dependencies: {}
+    Info_109:
+      Name: assets/assetbundlelocal/json/levels/lv_33.json.assetbundle
+      Dependencies: {}
+    Info_110:
+      Name: assets/assetbundlelocal/json/levels/lv_34.json.assetbundle
+      Dependencies: {}
+    Info_111:
+      Name: assets/assetbundlelocal/json/levels/lv_35.json.assetbundle
+      Dependencies: {}
+    Info_112:
+      Name: assets/assetbundlelocal/json/levels/lv_36.json.assetbundle
+      Dependencies: {}
+    Info_113:
+      Name: assets/assetbundlelocal/json/levels/lv_37.json.assetbundle
+      Dependencies: {}
+    Info_114:
+      Name: assets/assetbundlelocal/json/levels/lv_38.json.assetbundle
+      Dependencies: {}
+    Info_115:
+      Name: assets/assetbundlelocal/json/levels/lv_39.json.assetbundle
+      Dependencies: {}
+    Info_116:
+      Name: assets/assetbundlelocal/json/levels/lv_4.json.assetbundle
+      Dependencies: {}
+    Info_117:
+      Name: assets/assetbundlelocal/json/levels/lv_40.json.assetbundle
+      Dependencies: {}
+    Info_118:
+      Name: assets/assetbundlelocal/json/levels/lv_41.json.assetbundle
+      Dependencies: {}
+    Info_119:
+      Name: assets/assetbundlelocal/json/levels/lv_42.json.assetbundle
+      Dependencies: {}
+    Info_120:
+      Name: assets/assetbundlelocal/json/levels/lv_43.json.assetbundle
+      Dependencies: {}
+    Info_121:
+      Name: assets/assetbundlelocal/json/levels/lv_44.json.assetbundle
+      Dependencies: {}
+    Info_122:
+      Name: assets/assetbundlelocal/json/levels/lv_45.json.assetbundle
+      Dependencies: {}
+    Info_123:
+      Name: assets/assetbundlelocal/json/levels/lv_46.json.assetbundle
+      Dependencies: {}
+    Info_124:
+      Name: assets/assetbundlelocal/json/levels/lv_47.json.assetbundle
+      Dependencies: {}
+    Info_125:
+      Name: assets/assetbundlelocal/json/levels/lv_48.json.assetbundle
+      Dependencies: {}
+    Info_126:
+      Name: assets/assetbundlelocal/json/levels/lv_49.json.assetbundle
+      Dependencies: {}
+    Info_127:
+      Name: assets/assetbundlelocal/json/levels/lv_5.json.assetbundle
+      Dependencies: {}
+    Info_128:
+      Name: assets/assetbundlelocal/json/levels/lv_50.json.assetbundle
+      Dependencies: {}
+    Info_129:
+      Name: assets/assetbundlelocal/json/levels/lv_51.json.assetbundle
+      Dependencies: {}
+    Info_130:
+      Name: assets/assetbundlelocal/json/levels/lv_52.json.assetbundle
+      Dependencies: {}
+    Info_131:
+      Name: assets/assetbundlelocal/json/levels/lv_53.json.assetbundle
+      Dependencies: {}
+    Info_132:
+      Name: assets/assetbundlelocal/json/levels/lv_54.json.assetbundle
+      Dependencies: {}
+    Info_133:
+      Name: assets/assetbundlelocal/json/levels/lv_55.json.assetbundle
+      Dependencies: {}
+    Info_134:
+      Name: assets/assetbundlelocal/json/levels/lv_56.json.assetbundle
+      Dependencies: {}
+    Info_135:
+      Name: assets/assetbundlelocal/json/levels/lv_57.json.assetbundle
+      Dependencies: {}
+    Info_136:
+      Name: assets/assetbundlelocal/json/levels/lv_58.json.assetbundle
+      Dependencies: {}
+    Info_137:
+      Name: assets/assetbundlelocal/json/levels/lv_59.json.assetbundle
+      Dependencies: {}
+    Info_138:
+      Name: assets/assetbundlelocal/json/levels/lv_6.json.assetbundle
+      Dependencies: {}
+    Info_139:
+      Name: assets/assetbundlelocal/json/levels/lv_60.json.assetbundle
+      Dependencies: {}
+    Info_140:
+      Name: assets/assetbundlelocal/json/levels/lv_7.json.assetbundle
+      Dependencies: {}
+    Info_141:
+      Name: assets/assetbundlelocal/json/levels/lv_8.json.assetbundle
+      Dependencies: {}
+    Info_142:
+      Name: assets/assetbundlelocal/json/levels/lv_9.json.assetbundle
+      Dependencies: {}
+    Info_143:
+      Name: assets/assetbundlelocal/config/pathbundleconfig.bytes.assetbundle
+      Dependencies: {}
+    Info_144:
+      Name: assets/assetbundlelocal/audio/bgm.ogg.assetbundle
+      Dependencies: {}
+    Info_145:
+      Name: assets/assetbundlelocal/audio/broom.wav.assetbundle
+      Dependencies: {}
+    Info_146:
+      Name: assets/assetbundlelocal/audio/button.wav.assetbundle
+      Dependencies: {}
+    Info_147:
+      Name: assets/assetbundlelocal/audio/changeorder.wav.assetbundle
+      Dependencies: {}
+    Info_148:
+      Name: assets/assetbundlelocal/audio/changeorder2.wav.assetbundle
+      Dependencies: {}
+    Info_149:
+      Name: assets/assetbundlelocal/audio/click2.wav.assetbundle
+      Dependencies: {}
+    Info_150:
+      Name: assets/assetbundlelocal/audio/gamewin.wav.assetbundle
+      Dependencies: {}
+    Info_151:
+      Name: assets/assetbundlelocal/audio/hammer.wav.assetbundle
+      Dependencies: {}
+    Info_152:
+      Name: assets/assetbundlelocal/audio/levelcomplete.wav.assetbundle
+      Dependencies: {}
+    Info_153:
+      Name: assets/assetbundlelocal/audio/levelfailed.wav.assetbundle
+      Dependencies: {}
+    Info_154:
+      Name: assets/assetbundlelocal/audio/operate.wav.assetbundle
+      Dependencies: {}
+    Info_155:
+      Name: assets/assetbundlelocal/audio/orderunlock.wav.assetbundle
+      Dependencies: {}
+    Info_156:
+      Name: assets/assetbundlelocal/audio/ropetexture.wav.assetbundle
+      Dependencies: {}
+    Info_157:
+      Name: assets/assetbundlelocal/audio/ropetexture2.wav.assetbundle
+      Dependencies: {}
+    Info_158:
+      Name: assets/assetbundlelocal/audio/ropetexture3.wav.assetbundle
+      Dependencies: {}
+    Info_159:
+      Name: assets/assetbundlelocal/audio/ropetexture4.wav.assetbundle
       Dependencies: {}

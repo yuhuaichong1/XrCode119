@@ -3,6 +3,7 @@ using System;
 public static class VideoPlayerEvent
 {
     public static Action VideoPlay;
+    public static Action<int> SelectVideoPlay;
     public static Action<int> VideoPlayIndex;
     public static Action VideoPause;
     public static Action VideoFastForward;
