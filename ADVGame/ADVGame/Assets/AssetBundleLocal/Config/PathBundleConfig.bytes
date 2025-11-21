@@ -1,6 +1,14 @@
 
 n
 5Assets/AssetBundleLocal/Config/PathBundleConfig.bytes5Assets/AssetBundleLocal/Config/PathBundleConfig.bytes
+b
+)Assets/AssetBundleLocal/Videos/video1.mp45assets/assetbundlelocal/videos/video1.mp4.assetbundle
+b
+)Assets/AssetBundleLocal/Videos/video2.mp45assets/assetbundlelocal/videos/video2.mp4.assetbundle
+b
+)Assets/AssetBundleLocal/Videos/video3.mp45assets/assetbundlelocal/videos/video3.mp4.assetbundle
+b
+)Assets/AssetBundleLocal/Videos/video4.mp45assets/assetbundlelocal/videos/video4.mp4.assetbundle
 ƒ
 :Assets/AssetBundleLocal/UI/RewardEffect/icon_qianbidui.pngEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 z
@@ -129,6 +137,12 @@ T
 "Assets/UI/Common/jindutiao_664.png.assets/ui/common/jindutiao_664.png.assetbundle
 H
 Assets/UI/Common/PlaneBg.png(assets/ui/common/planebg.png.assetbundle
+¦
+KAssets/AssetBundleLocal/Prefabs/UI/UISelectionPanel/UISelectionPanel.prefabWassets/assetbundlelocal/prefabs/ui/uiselectionpanel/uiselectionpanel.prefab.assetbundle
+R
+!Assets/UI/GamePlay/GamePlayBg.png-assets/ui/gameplay/gameplaybg.png.assetbundle
+Ž
+?Assets/AssetBundleLocal/Prefabs/UI/UIGameTest/UIGameTest.prefabKassets/assetbundlelocal/prefabs/ui/uigametest/uigametest.prefab.assetbundle
 †
 ;Assets/AssetBundleLocal/Prefabs/UI/Setting/UISetting.prefabGassets/assetbundlelocal/prefabs/ui/setting/uisetting.prefab.assetbundle
 i
@@ -217,8 +231,6 @@ n
 =Assets/AssetBundleLocal/Prefabs/UI/GamePlay/UIGamePlay.prefabIassets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
 i
 Assets/UI/GamePlay/btn_3.pngIassets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
-n
-!Assets/UI/GamePlay/GamePlayBg.pngIassets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
 m
  Assets/UI/GamePlay/qianbi_bg.pngIassets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
 l
@@ -277,20 +289,28 @@ u
 ,Assets/UI/Spine/DifficultyUp/bs_Material.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 q
 (Assets/UI/Spine/Click/touch_Material.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+¯
+fAssets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 k
 "Assets/UI/Spine/Hammer/hammer.jsonEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 r
 )Assets/UI/Spine/DifficultyUp/bs.atlas.txtEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+œ
+SAssets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefault.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 §
 ^Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Multiply.shaderEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 s
 *Assets/UI/Spine/Hammer/hammer_Material.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+­
+dAssets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 ‡
 >Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.pngEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 n
 %Assets/UI/Spine/Clear/dx_Material.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 m
 $Assets/UI/Spine/Clear/dx_Atlas.assetEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+Ÿ
+VAssets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shaderEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 h
 Assets/UI/Effect/tankuang_3.pngEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 f
@@ -327,6 +347,8 @@ p
 'Assets/UI/Spine/Hammer/hammer.atlas.txtEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 Ž
 EAssets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.pngEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+
+TAssets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shaderEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 ‡
 >Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shaderEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 ¥
@@ -335,8 +357,12 @@ h
 Assets/UI/Effect/FX_Flare_9.TGAEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 n
 %Assets/UI/Spine/Click/touch.atlas.txtEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+º
+UAssets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shaderaassets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
 k
 "Assets/UI/Spine/Clear/dx.atlas.txtEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
+¯
+fAssets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 †
 ;Assets/AssetBundleLocal/Prefabs/UI/Confirm/UIConfirm.prefabGassets/assetbundlelocal/prefabs/ui/confirm/uiconfirm.prefab.assetbundle
 e
@@ -345,8 +371,6 @@ f
 Assets/UI/Confirm/dizuo.pngGassets/assetbundlelocal/prefabs/ui/confirm/uiconfirm.prefab.assetbundle
 Š
 =Assets/AssetBundleLocal/Materials/SkeletonGraphicDefault2.matIassets/assetbundlelocal/materials/skeletongraphicdefault2.mat.assetbundle
-¢
-UAssets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shaderIassets/assetbundlelocal/materials/skeletongraphicdefault2.mat.assetbundle
 j
 -Assets/AssetBundleLocal/Json/Levels/lv_0.json9assets/assetbundlelocal/json/levels/lv_0.json.assetbundle
 j

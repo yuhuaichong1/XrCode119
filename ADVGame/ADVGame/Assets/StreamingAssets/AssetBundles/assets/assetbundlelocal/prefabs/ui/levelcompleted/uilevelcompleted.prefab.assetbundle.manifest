@@ -1,16 +1,15 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.60f1
-CRC: 3569581632
+CRC: 4108420145
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1cfc7e6e6b461c4668a17364ab9cbba1
+    Hash: 255e8d42d7ff2d430a75b4790e6d82ee
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 931125ac1a5e229bb194180704950fbb
+    Hash: a31c1aba76828ba8cb911605cbab6302
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 774bc408b0ff36be38601c7e90cc2145
+    Hash: 255e8d42d7ff2d430a75b4790e6d82ee
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,17 +19,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -69,8 +68,8 @@ Assets:
 - Assets/UI/Common/IAA/IAAStars.png
 - Assets/AssetBundleLocal/Prefabs/UI/LevelCompleted/UILevelCompleted.prefab
 Dependencies:
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_green.png.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_yellow.png.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/icon_move.png.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/img_huakuang_bg.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_green.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_yellow.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/icon_move.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/img_huakuang_bg.png.assetbundle

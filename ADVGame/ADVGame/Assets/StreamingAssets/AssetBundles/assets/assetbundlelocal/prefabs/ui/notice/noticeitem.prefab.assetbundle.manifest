@@ -1,16 +1,15 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.60f1
-CRC: 1717478806
+CRC: 2458376764
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 02dca4c899c708e67e1c7e52e379cb16
+    Hash: 445c41307e9a3e5e38a95b82e8f296a9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7e377ea4cb6b3f4e103207667238e52d
+    Hash: 136cfc86970b243a499c43f83465f9f0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: d6236b32089f10c3887572a4558c5f88
+    Hash: 445c41307e9a3e5e38a95b82e8f296a9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,4 +41,4 @@ Assets:
 - Assets/AssetBundleLocal/Prefabs/UI/Notice/NoticeItem.prefab
 - Assets/UI/Notive/noticeBg.png
 Dependencies:
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle

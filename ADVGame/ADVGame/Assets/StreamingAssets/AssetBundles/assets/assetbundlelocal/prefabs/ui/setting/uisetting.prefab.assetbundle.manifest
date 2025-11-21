@@ -1,16 +1,15 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.60f1
-CRC: 4045831145
+CRC: 1152804824
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c6c81e5405118ed7f5ff3a4cebd8c4c0
+    Hash: 41ffd2145b66a409f2772b39ed7b7f5b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ce5b9ca205a63a145d6dbe258d9c5eda
+    Hash: 2537fea02a695a44563ecf4dd6f97d7e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5afc8e63f2715883975b1636c49c8518
+    Hash: 41ffd2145b66a409f2772b39ed7b7f5b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -18,21 +17,21 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -75,6 +74,6 @@ Assets:
 - Assets/UI/Setting/settingToggleBg_Off.png
 - Assets/AssetBundleLocal/Prefabs/UI/Setting/UISetting.prefab
 Dependencies:
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_close.png.assetbundle
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/ui/common/planebg.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/btn_close.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/planebg.png.assetbundle

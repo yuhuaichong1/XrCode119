@@ -31,6 +31,7 @@ namespace cfg
 		public TBLuckySpin TBLuckySpin {get; private set;}
 		public TBUserLevel TBUserLevel {get; private set;}
 		public TBLoadingTitleSprite TBLoadingTitleSprite {get; private set;}
+		public TBStoryline TBStoryline {get; private set;}
 
 		private Queue<string> configNames;
 		private Queue<System.Action<ByteBuf>> configCbFuncs;
@@ -66,6 +67,8 @@ namespace cfg
 			tables.Add("TBUserLevel", TBUserLevel);
 			TBLoadingTitleSprite = new TBLoadingTitleSprite(loader("tbloadingtitlesprite")); 
 			tables.Add("TBLoadingTitleSprite", TBLoadingTitleSprite);
+			TBStoryline = new TBStoryline(loader("tbstoryline")); 
+			tables.Add("TBStoryline", TBStoryline);
 	
 			PostInit();
 			ResolveAllTable();
@@ -100,6 +103,8 @@ namespace cfg
             configCbFuncs.Enqueue(OnTBUserLevelDataFinish);
 			configNames.Enqueue("tbloadingtitlesprite");
             configCbFuncs.Enqueue(OnTBLoadingTitleSpriteDataFinish);
+			configNames.Enqueue("tbstoryline");
+            configCbFuncs.Enqueue(OnTBStorylineDataFinish);
 
             LoadAllConfig();
         }
@@ -153,6 +158,7 @@ namespace cfg
 			TBLuckySpin.TranslateText(translator); 
 			TBUserLevel.TranslateText(translator); 
 			TBLoadingTitleSprite.TranslateText(translator); 
+			TBStoryline.TranslateText(translator); 
 		}
 		
 		partial void PostInit();
@@ -171,6 +177,7 @@ namespace cfg
 			TBLuckySpin.Resolve(tables);
 			TBUserLevel.Resolve(tables);
 			TBLoadingTitleSprite.Resolve(tables);
+			TBStoryline.Resolve(tables);
 		}
 	
 		private void ReloadOneTable(string reloadTableName)
@@ -214,6 +221,9 @@ namespace cfg
 					break;
 				case "TBLoadingTitleSprite":
 					TBLoadingTitleSprite.Reload(_loader("TBLoadingTitleSprite"));
+					break;
+				case "TBStoryline":
+					TBStoryline.Reload(_loader("TBStoryline"));
 					break;
 			}
 	
@@ -288,6 +298,11 @@ namespace cfg
 		{
 			TBLoadingTitleSprite = new TBLoadingTitleSprite(buf);
 			tables.Add("TBLoadingTitleSprite", TBLoadingTitleSprite);
+		}
+		public void OnTBStorylineDataFinish(ByteBuf buf)
+		{
+			TBStoryline = new TBStoryline(buf);
+			tables.Add("TBStoryline", TBStoryline);
 		}
 		//Finish Load all table 
 		public void OnLoadTbDataFinish()

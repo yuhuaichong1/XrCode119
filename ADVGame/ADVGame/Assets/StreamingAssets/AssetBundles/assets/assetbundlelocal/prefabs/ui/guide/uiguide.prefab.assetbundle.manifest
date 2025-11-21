@@ -1,16 +1,15 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.60f1
-CRC: 508910139
+CRC: 1186323128
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce00e3f8c2a754b9d29c59ad8de4efe5
+    Hash: a26c568f8247bff743da0102a80b325f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5d735ed0809ebc448a304f5a4497c6fd
+    Hash: f32ba443d0926a3b2e0341cf3a1e4538
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: b63061ac324b4667baa0cc27d83a95d4
+    Hash: a26c568f8247bff743da0102a80b325f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -22,17 +21,17 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 7e989c0f1f8d3094bb9ab9861aa94bee, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 38dd625178be0c14bb6f963a66350297, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e989c0f1f8d3094bb9ab9861aa94bee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -72,4 +71,4 @@ Assets:
 - Assets/UI/Collection/pic.png
 - Assets/Tools/HoleMask/Material/Mask.mat
 Dependencies:
-- D:/Unitty/UnityProject/WYGFrame/WYGFrame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle

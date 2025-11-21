@@ -155,6 +155,8 @@ public enum EUIType
     EUIWithdrawalRecords = 15,
     EUIWithdrawalAmount = 16,
     EUILuckyReward = 17,
+    EUIUIGameTest = 18,
+    EUIUISelectionPanel = 19,
 }
 
 /// <summary>

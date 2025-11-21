@@ -1,16 +1,15 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.60f1
-CRC: 1646653022
+CRC: 4222191699
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3fb3d19d2e5f431785e215a0788378ff
+    Hash: 7ccdf578857c4ecac52e01a35a9741b0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4afb0d898c1c22a5e88248733bd69457
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 909db641bdc25cd4942753fb514cd931
+    Hash: 7ccdf578857c4ecac52e01a35a9741b0
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -20,5 +19,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/AssetBundleLocal/Materials/SkeletonGraphicDefault2.mat
-- Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader
-Dependencies: []
+Dependencies:
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle

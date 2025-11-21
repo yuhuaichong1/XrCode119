@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3550065890
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d3f3ab4d76df6ef6101d0246c245178c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c12678a98877549a3fe7bb52917258ad
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d3f3ab4d76df6ef6101d0246c245178c
+HashAppended: 0
+ClassTypes:
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundleLocal/Videos/video1.mp4
+Dependencies: []
