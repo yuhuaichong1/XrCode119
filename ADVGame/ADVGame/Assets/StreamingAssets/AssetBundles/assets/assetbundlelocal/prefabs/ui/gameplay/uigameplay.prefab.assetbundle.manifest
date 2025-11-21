@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4118946277
+CRC: 2638365294
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e2c5f7ad38d6ca5f18eadef55ce45bc7
+    Hash: d0938287f573b0b0f0c9ce6130ca7ef6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 31e3b8b7e29d81afd930b849d93b2b6a
+    Hash: f7b33bdb2ff934ce3a6175de602ff51b
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e2c5f7ad38d6ca5f18eadef55ce45bc7
+    Hash: d0938287f573b0b0f0c9ce6130ca7ef6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,21 +17,21 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89c9cd95d4070434481385c7ca0b4b3b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 894460784951dd7479dcc0dbe508753a, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 89c9cd95d4070434481385c7ca0b4b3b, type: 3}
+  Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -71,6 +71,7 @@ Assets:
 - Assets/UI/GamePlay/btn_3.png
 - Assets/AssetBundleLocal/Prefabs/UI/GamePlay/UIGamePlay.prefab
 - Assets/UI/GamePlay/qianbi_bg.png
+- Assets/UI/GamePlay/guanqia_bg.png
 - Assets/UI/Common/btn_shezhi.png
 - Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop2.png
 - Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop1.png
@@ -78,13 +79,13 @@ Assets:
 - Assets/UI/GamePlay/btn_2.png
 - Assets/UI/GamePlay/btn_1.png
 - Assets/UI/GamePlay/icon_heart.png
+- Assets/UI/Common/icon_move.png
 - Assets/UI/GamePlay/btn_fanhui.png
 - Assets/UI/GamePlay/IAA/IAAStar.png
 - Assets/UI/GamePlay/icon_tishi.png
 - Assets/UI/GamePlay/tishikuang.png
 Dependencies:
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/common/icon_move.png.assetbundle
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle

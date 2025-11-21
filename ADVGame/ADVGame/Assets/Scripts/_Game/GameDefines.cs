@@ -144,19 +144,9 @@ public enum EUIType
     EUIGuide = 4,
     EUIEffect = 5,
     EUISetting = 6,
-    EUIUserLevel = 7,
-    EUIReStart = 8,
-    EUILevelCompleted = 9,
-    EUILevelFailure = 10,
-    EUIProp = 11,
-    EUIEnterInfomation = 12,
-    EUIFeedback = 13,
-    EUIConfirm = 14,
-    EUIWithdrawalRecords = 15,
-    EUIWithdrawalAmount = 16,
-    EUILuckyReward = 17,
-    EUIUIGameTest = 18,
-    EUIUISelectionPanel = 19,
+    EUIUIGameTest = 7,
+    EUIUISelectionPanel = 8,
+    EUITimeLine = 9,
 }
 
 /// <summary>

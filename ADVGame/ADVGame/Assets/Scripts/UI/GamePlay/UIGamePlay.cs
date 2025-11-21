@@ -207,31 +207,31 @@ namespace XrCode
         #endregion
 
         #region 按钮事件
-        private void OnSettingBtnClickHandle()        {            UIManager.Instance.OpenAsync<UISetting>(EUIType.EUISetting);        }	    private void OnReStartBtnClickHandle()        {            UIManager.Instance.OpenAsync<UIReStart>(EUIType.EUIReStart);        }	    private void OnBtn_Prop1ClickHandle()        {            if(FacadePlayer.GetProp1Num() > 0)
+        private void OnSettingBtnClickHandle()        {            UIManager.Instance.OpenAsync<UISetting>(EUIType.EUISetting);        }	    private void OnReStartBtnClickHandle()        {            //UIManager.Instance.OpenAsync<UIReStart>(EUIType.EUIReStart);        }	    private void OnBtn_Prop1ClickHandle()        {            if(FacadePlayer.GetProp1Num() > 0)
             {
                 FacadePlayer.AddProp1Num(-1);
                 FacadeGamePlay.Func_Porp1();
                 SetProp1CountShow();
-            }            else                UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop1);        }	    private void OnBtn_Prop2ClickHandle()        {
+            }            //else                //UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop1);        }	    private void OnBtn_Prop2ClickHandle()        {
             if (FacadePlayer.GetProp2Num() > 0)
             {
                 FacadePlayer.AddProp2Num(-1);
                 FacadeGamePlay.Func_Porp2();
                 SetProp2CountShow();
-            }            else
-                UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop2);        }	    private void OnBtn_Prop3ClickHandle()        {
+            }            //else
+                //UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop2);        }	    private void OnBtn_Prop3ClickHandle()        {
             if (FacadePlayer.GetProp3Num() > 0)
             {
                 FacadePlayer.AddProp3Num(-1);
                 FacadeGamePlay.Func_Porp3();
                 SetProp3CountShow();
-            }            else
-                UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop3);        }	    private void OnCMBtnClickHandle()
+            }            //else
+                //UIManager.Instance.OpenAsync<UIProp>(EUIType.EUIProp, null, EFuncType.Prop3);        }	    private void OnCMBtnClickHandle()
         {
-            if (!string.IsNullOrEmpty(FacadeWithdrawal.GetWName?.Invoke()) && !string.IsNullOrEmpty(FacadeWithdrawal.GetWPhoneOrEmail?.Invoke()))
-                UIManager.Instance.OpenAsync<UIConfirm>(EUIType.EUIConfirm);
-            else
-                UIManager.Instance.OpenAsync<UIEnterInfomation>(EUIType.EUIEnterInfomation);
+            //if (!string.IsNullOrEmpty(FacadeWithdrawal.GetWName?.Invoke()) && !string.IsNullOrEmpty(FacadeWithdrawal.GetWPhoneOrEmail?.Invoke()))
+            //    UIManager.Instance.OpenAsync<UIConfirm>(EUIType.EUIConfirm);
+            //else
+            //    UIManager.Instance.OpenAsync<UIEnterInfomation>(EUIType.EUIEnterInfomation);
         }
 
         #endregion

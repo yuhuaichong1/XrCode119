@@ -3,13 +3,13 @@ CRC: 2458376764
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 445c41307e9a3e5e38a95b82e8f296a9
+    Hash: 80fd0933f7647fc85445e341731136d1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 136cfc86970b243a499c43f83465f9f0
+    Hash: b92303197a47abd4deab7ce4123f35a5
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 445c41307e9a3e5e38a95b82e8f296a9
+    Hash: 80fd0933f7647fc85445e341731136d1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,9 +17,9 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -41,4 +41,4 @@ Assets:
 - Assets/AssetBundleLocal/Prefabs/UI/Notice/NoticeItem.prefab
 - Assets/UI/Notive/noticeBg.png
 Dependencies:
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle

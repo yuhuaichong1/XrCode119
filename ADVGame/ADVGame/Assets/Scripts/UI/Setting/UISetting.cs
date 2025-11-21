@@ -40,7 +40,6 @@ namespace XrCode
         {
             HideAnim(mPlane, () => {
                 UIManager.Instance.CloseUI(EUIType.EUISetting);
-                UIManager.Instance.OpenAsync<UIUserLevel>(EUIType.EUIUserLevel);
             });
         }
 
@@ -48,7 +47,6 @@ namespace XrCode
         {
             HideAnim(mPlane, () => {
                 UIManager.Instance.CloseUI(EUIType.EUISetting);
-                UIManager.Instance.OpenAsync<UIWithdrawalRecords>(EUIType.EUIWithdrawalRecords);
             });
         }
 

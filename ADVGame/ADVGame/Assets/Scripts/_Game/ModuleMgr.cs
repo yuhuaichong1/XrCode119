@@ -17,7 +17,6 @@ namespace XrCode
         private GamePlayModule gamePlayModule;
         private AdModule adModule;
         private PayTypeModule payTypeModule;
-        private WithdrawalModule withdrawalModule;
         private VideoPlayerModule videoPlayerModule;
         public List<BaseModule> updateModList;
 
@@ -37,7 +36,6 @@ namespace XrCode
         public PayTypeModule PayTypeModule { get { return payTypeModule; } }
 
         public VideoPlayerModule VideoPlayerModule { get { return videoPlayerModule; } }
-        public WithdrawalModule WithdrawalModule { get { return withdrawalModule; } }
 
 
         private bool isLoaded = false;
@@ -57,7 +55,6 @@ namespace XrCode
             guideModule = new GuideModule();
             adModule = new AdModule();
             payTypeModule = new PayTypeModule();
-            withdrawalModule = new WithdrawalModule();
             videoPlayerModule = new VideoPlayerModule();
         }
         public void Dispose()
@@ -75,7 +72,6 @@ namespace XrCode
             eventModdule.Dispose();
             languageMod.Dispose();
             payTypeModule.Dispose();
-            withdrawalModule.Dispose();
             videoPlayerModule.Dispose();
         }
 
@@ -94,7 +90,6 @@ namespace XrCode
             tDAnalyticsManager.Load();
             sceneMod.Load();
             adModule.Load();
-            withdrawalModule.Load();
             videoPlayerModule.Load();
             sceneMod.LoadScene(ESceneType.MainScene);
         }
