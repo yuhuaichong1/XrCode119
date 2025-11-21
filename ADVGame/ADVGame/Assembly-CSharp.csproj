@@ -288,6 +288,7 @@
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Examples\JoystickParameter\AxisXUi.cs" />
     <Compile Include="Assets\Scripts\Config\AppConfig.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\Scripts\Timeline\TimePoint\GoalTimePoint.cs" />
     <Compile Include="Assets\Tools\SPlayerPrefs\SPlayerPrefs.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ProtoIncludeAttribute.cs" />
     <Compile Include="Assets\Scripts\Resource\AssetBundle\AssetBundleLoader.cs" />
