@@ -3,13 +3,13 @@ CRC: 2458376764
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 49f69ba9ba5e6b67fdfa1ba33b5b6052
+    Hash: 34148ee95be4d0f09d364db852aa3c93
   TypeTreeHash:
     serializedVersion: 2
     Hash: b92303197a47abd4deab7ce4123f35a5
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 49f69ba9ba5e6b67fdfa1ba33b5b6052
+    Hash: 34148ee95be4d0f09d364db852aa3c93
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,4 +41,4 @@ Assets:
 - Assets/AssetBundleLocal/Prefabs/UI/Notice/NoticeItem.prefab
 - Assets/UI/Notive/noticeBg.png
 Dependencies:
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle

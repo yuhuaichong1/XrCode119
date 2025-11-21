@@ -3,13 +3,13 @@ CRC: 2629736593
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cc2956a0ddfee40aefb2812aba82c303
+    Hash: 587aef46639fd028b4919ad9093bbcca
   TypeTreeHash:
     serializedVersion: 2
     Hash: e02d240f5c53228061a65f51f40ae5bc
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: cc2956a0ddfee40aefb2812aba82c303
+    Hash: 587aef46639fd028b4919ad9093bbcca
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -66,4 +66,4 @@ Assets:
 - Assets/AssetBundleLocal/Prefabs/UI/Loading/UILoading.prefab
 - Assets/UI/Loading/loadingSlider_bg.png
 Dependencies:
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/loading/loadingbg.jpg.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/loading/loadingbg.jpg.assetbundle

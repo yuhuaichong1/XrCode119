@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,22 +9,32 @@ namespace XrCode
     {
         protected override void OnAwake()
         {
-            
+
         }
+
         protected override void OnEnable()
         {
-            bool sT = FacadeAudio.GetEffectsVolume() == 1;
-            bool vT = FacadeAudio.GetVibrate();
-            mS_Toggle.isOn = sT;
-            mV_Toggle.isOn = vT;
-            mS_Icon.localPosition = new Vector3(88 * (sT ? 1 : -1), 36, 0);
-            mV_Icon.localPosition = new Vector3(88 * (vT ? 1 : -1), 36, 0);
+            // 获取当前设置
+            float masterVolume = FacadeAudio.GetMasterVolume();
+            float musicVolume = FacadeAudio.GetMusicVolume();
+            float effectsVolume = FacadeAudio.GetEffectsVolume();
+            bool isFullscreen = FacadeAudio.GetDisplayMode();
+
+            // 设置开关状态（根据音量是否大于0）
+            mMasterToggle.isOn = masterVolume > 0;
+            mMusicToggle.isOn = musicVolume > 0;
+            mEffectsToggle.isOn = effectsVolume > 0;
+            mDisplayToggle.isOn = isFullscreen;
+
+            // 设置滑动条值
+            mMasterSlider.value = masterVolume;
+            mMusicSlider.value = musicVolume;
+            mEffectsSlider.value = effectsVolume;
 
             mUserNameText.text = $"{FacadePlayer.GetPlayerName()}";
-            mUserIDText.text = $"{FacadeLanguage.GetText("10009")}:{FacadePlayer.GetPlayerID().Substring(0, 13)}..."; 
+            mUserIDText.text = $"{FacadeLanguage.GetText("10009")}:{FacadePlayer.GetPlayerID().Substring(0, 13)}...";
 
             ShowAnim(mPlane);
-            //MT_Show(FacadeAudio.GetMusicVolume() == 1);
         }
 
         private void OnExitBtnClickHandle()
@@ -49,42 +58,97 @@ namespace XrCode
             });
         }
 
-        #region 控制（背景）音乐，目前不用（并入Sound）
-        //private void OnM_ToggleValueChange(bool b)
-        //{
-        //    FacadeAudio.SetMusicVolume(b ? 1 : 0);
-        //    MT_Show(b);
-        //}
-
-        //private void MT_Show(bool b)
-        //{
-        //    Debug.LogError(b);
-        //    mMON.color = b ? toggleSelectedColor : toggleUnSelectedColor;
-        //    mMOFF.color = b ? toggleUnSelectedColor : toggleSelectedColor;
-        //}
-        #endregion
-
-        private void OnS_ToggleValueChange(bool b)
+        // 主音乐开关值改变
+        private void OnMasterToggleValueChange(bool b)
         {
-            FacadeAudio.SetEffectsVolume(b ? 1 : 0);
-            FacadeAudio.SetMusicVolume(b ? 1 : 0);
-            mS_Icon.localPosition = new Vector3(b? 88 : -88, 36, 0);
+            float volume = b ? (mMasterSlider.value > 0 ? mMasterSlider.value : 0.5f) : 0f;
+            FacadeAudio.SetMasterVolume(volume);
+            mMasterSlider.value = volume;
         }
 
-        private void OnV_ToggleValueChange(bool b)
+        // 背景音乐开关值改变
+        private void OnMusicToggleValueChange(bool b)
         {
-            FacadeAudio.SetVibrate(b);
-            mV_Icon.localPosition = new Vector3(88 * (b ? 1 : -1), 36, 0);
+            float volume = b ? (mMusicSlider.value > 0 ? mMusicSlider.value : 0.5f) : 0f;
+            FacadeAudio.SetMusicVolume(volume);
+            mMusicSlider.value = volume;
+        }
+
+        // 音效开关值改变
+        private void OnEffectsToggleValueChange(bool b)
+        {
+            float volume = b ? (mEffectsSlider.value > 0 ? mEffectsSlider.value : 0.5f) : 0f;
+            FacadeAudio.SetEffectsVolume(volume);
+
+  
+            mEffectsSlider.value = volume;
+        }
+
+
+        private void OnDisplayToggleValueChange(bool b)
+        {
+            FacadeAudio.SetDisplayMode(b);
+        }
+
+        // 主音量滑动条值改变
+        private void OnMasterSliderValueChange(float value)
+        {
+            FacadeAudio.SetMasterVolume(value);
+
+          
+            if (value > 0 && !mMasterToggle.isOn)
+            {
+                mMasterToggle.isOn = true;
+            }
+
+            else if (value == 0 && mMasterToggle.isOn)
+            {
+                mMasterToggle.isOn = false;
+            }
+        }
+
+        // 背景音乐滑动条值改变
+        private void OnMusicSliderValueChange(float value)
+        {
+            FacadeAudio.SetMusicVolume(value);
+
+      
+            if (value > 0 && !mMusicToggle.isOn)
+            {
+                mMusicToggle.isOn = true;
+            }
+   
+            else if (value == 0 && mMusicToggle.isOn)
+            {
+                mMusicToggle.isOn = false;
+            }
+        }
+
+    
+        private void OnEffectsSliderValueChange(float value)
+        {
+            FacadeAudio.SetEffectsVolume(value);
+
+        
+            if (value > 0 && !mEffectsToggle.isOn)
+            {
+                mEffectsToggle.isOn = true;
+            }
+            
+            else if (value == 0 && mEffectsToggle.isOn)
+            {
+                mEffectsToggle.isOn = false;
+            }
         }
 
         protected override void OnDisable()
         {
-            
+
         }
 
         protected override void OnDispose()
         {
-            
+
         }
     }
 }

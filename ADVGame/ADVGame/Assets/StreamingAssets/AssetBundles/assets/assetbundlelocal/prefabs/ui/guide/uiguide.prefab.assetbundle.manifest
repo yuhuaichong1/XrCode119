@@ -3,13 +3,13 @@ CRC: 1186323128
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5a35252c3b2867751c36da682f6de1a7
+    Hash: d797cc3dae80924b2152cb11ba1898eb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 01c72bb6e644e1866000fdbd8b19a59f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5a35252c3b2867751c36da682f6de1a7
+    Hash: d797cc3dae80924b2152cb11ba1898eb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -71,4 +71,4 @@ Assets:
 - Assets/UI/Collection/pic.png
 - Assets/Tools/HoleMask/Material/Mask.mat
 Dependencies:
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle

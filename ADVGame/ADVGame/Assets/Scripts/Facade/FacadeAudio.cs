@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//音频定义类
+//音频管理器
 public static class FacadeAudio
 {
     public static Action PlayBgm;
@@ -17,5 +17,10 @@ public static class FacadeAudio
     public static Func<float> GetEffectsVolume;
     public static Func<bool> GetVibrate;
     public static Func<string, EAudioType> GetEATypeByString;
-}
 
+
+    public static Action<float> SetMasterVolume;
+    public static Func<float> GetMasterVolume;
+    public static Action<bool> SetDisplayMode;
+    public static Func<bool> GetDisplayMode;
+}

@@ -3,13 +3,13 @@ CRC: 1554684091
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0cd1867b08421fd19e48ace36c86c12e
+    Hash: 6a337888757cba09463b10b9f4524902
   TypeTreeHash:
     serializedVersion: 2
     Hash: 328bf4ab79fceb895ba3ac7545c1690e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0cd1867b08421fd19e48ace36c86c12e
+    Hash: 6a337888757cba09463b10b9f4524902
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -68,4 +68,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/AssetBundleLocal/Prefabs/UI/UISelectionPanel/UISelectionPanel.prefab
 Dependencies:
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle

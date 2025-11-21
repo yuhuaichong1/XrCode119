@@ -3,13 +3,13 @@ CRC: 53325863
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4267fb73ecebcda26a3767c4e6c56a9b
+    Hash: b010d7cd9e5d48205c59864a2d9aff0e
   TypeTreeHash:
     serializedVersion: 2
     Hash: f7b33bdb2ff934ce3a6175de602ff51b
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 4267fb73ecebcda26a3767c4e6c56a9b
+    Hash: b010d7cd9e5d48205c59864a2d9aff0e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -84,7 +84,7 @@ Assets:
 - Assets/UI/GamePlay/icon_tishi.png
 - Assets/UI/GamePlay/tishikuang.png
 Dependencies:
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
-- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/ui/gameplay/gameplaybg.png.assetbundle

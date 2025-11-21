@@ -1,28 +1,106 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace XrCode
 {
     public partial class UISetting : BaseUI
-    {	protected RectTransform mPlane;	protected Button mExitBtn;	protected Image mPlayerIcon;	protected Text mUserNameText;	protected Text mUserIDText;	protected Text mUserLv;	protected Button mUserLevelBtn;	protected Toggle mM_Toggle;	protected LanguageText mMON;	protected LanguageText mMOFF;	protected Toggle mS_Toggle;	protected Toggle mV_Toggle;	protected Button mWRBtn;	protected RectTransform mS_Icon;	protected RectTransform mV_Icon;
+    {
+        protected RectTransform mPlane;
+        protected Button mExitBtn;
+        protected Image mPlayerIcon;
+        protected Text mUserNameText;
+        protected Text mUserIDText;
+        protected Text mUserLv;
+        protected Button mUserLevelBtn;
+
+        // 主音乐控件
+        protected Toggle mMasterToggle;
+        protected Slider mMasterSlider;
+        protected RectTransform mMasterIcon;
+
+        // 背景音乐控件
+        protected Toggle mMusicToggle;
+        protected Slider mMusicSlider;
+        protected RectTransform mMusicIcon;
+
+        // 音效控件
+        protected Toggle mEffectsToggle;
+        protected Slider mEffectsSlider;
+        protected RectTransform mEffectsIcon;
+
+        // 显示模式控件
+        protected Toggle mDisplayToggle;
+
+        protected Button mWRBtn;
+
         protected override void LoadPanel()
         {
             base.LoadPanel();
-            		mPlane = mTransform.Find("Plane").GetComponent<RectTransform>();		mExitBtn = mTransform.Find("Plane/ExitBtn").GetComponent<Button>();		mPlayerIcon = mTransform.Find("Plane/Bg2/PlayerIcon").GetComponent<Image>();		mUserNameText = mTransform.Find("Plane/Bg2/UserNameText").GetComponent<Text>();		mUserIDText = mTransform.Find("Plane/Bg2/UserIDText").GetComponent<Text>();		mUserLv = mTransform.Find("Plane/Bg2/UserLv").GetComponent<Text>();		mUserLevelBtn = mTransform.Find("Plane/Bg2/UserLevelBtn").GetComponent<Button>();		mM_Toggle = mTransform.Find("Plane/Muslc/m_Toggle").GetComponent<Toggle>();		mMON = mTransform.Find("Plane/Muslc/m_Toggle/mON").GetComponent<LanguageText>();		mMOFF = mTransform.Find("Plane/Muslc/m_Toggle/mOFF").GetComponent<LanguageText>();		mS_Toggle = mTransform.Find("Plane/Sound/s_Toggle").GetComponent<Toggle>();		mV_Toggle = mTransform.Find("Plane/Vibration/v_Toggle").GetComponent<Toggle>();		mWRBtn = mTransform.Find("Plane/WRButton/WRBtn").GetComponent<Button>();		mS_Icon = mTransform.Find("Plane/Sound/s_Toggle/s_Icon").GetComponent<RectTransform>();		mV_Icon = mTransform.Find("Plane/Vibration/v_Toggle/v_Icon").GetComponent<RectTransform>();
+
+            mPlane = mTransform.Find("Plane").GetComponent<RectTransform>();
+            mExitBtn = mTransform.Find("Plane/ExitBtn").GetComponent<Button>();
+            mPlayerIcon = mTransform.Find("Plane/Bg2/PlayerIcon").GetComponent<Image>();
+            mUserNameText = mTransform.Find("Plane/Bg2/UserNameText").GetComponent<Text>();
+            mUserIDText = mTransform.Find("Plane/Bg2/UserIDText").GetComponent<Text>();
+            mUserLv = mTransform.Find("Plane/Bg2/UserLv").GetComponent<Text>();
+            mUserLevelBtn = mTransform.Find("Plane/Bg2/UserLevelBtn").GetComponent<Button>();
+
+            // 主音乐控件
+            mMasterToggle = mTransform.Find("Plane/MasterVolume/MasterToggle").GetComponent<Toggle>();
+            mMasterSlider = mTransform.Find("Plane/MasterVolume/MasterSlider").GetComponent<Slider>();
+            mMasterIcon = mTransform.Find("Plane/MasterVolume/MasterToggle/Background/MasterIcon").GetComponent<RectTransform>();
+
+            // 背景音乐控件
+            mMusicToggle = mTransform.Find("Plane/MusicVolume/MusicToggle").GetComponent<Toggle>();
+            mMusicSlider = mTransform.Find("Plane/MusicVolume/MusicSlider").GetComponent<Slider>();
+            mMusicIcon = mTransform.Find("Plane/MusicVolume/MusicToggle/Background/MusicIcon").GetComponent<RectTransform>();
+
+            // 音效控件
+            mEffectsToggle = mTransform.Find("Plane/EffectsVolume/EffectsToggle").GetComponent<Toggle>();
+            mEffectsSlider = mTransform.Find("Plane/EffectsVolume/EffectsSlider").GetComponent<Slider>();
+            mEffectsIcon = mTransform.Find("Plane/EffectsVolume/EffectsToggle/Background/EffectsIcon").GetComponent<RectTransform>();
+
+            // 显示模式控件
+            mDisplayToggle = mTransform.Find("Plane/DisplayMode/DisplayToggle").GetComponent<Toggle>();
+       
         }
-    
-        protected override void BindButtonEvent() 
+
+        protected override void BindButtonEvent()
         {
-            		mExitBtn.onClick.AddListener( OnExitBtnClickHandle);		mUserLevelBtn.onClick.AddListener( OnUserLevelBtnClickHandle);		mWRBtn.onClick.AddListener( OnWRBtnClickHandle);
-			mS_Toggle.onValueChanged.AddListener(OnS_ToggleValueChange);
-			mV_Toggle.onValueChanged.AddListener(OnV_ToggleValueChange);
-        }
+            mExitBtn.onClick.AddListener(OnExitBtnClickHandle);
+            mUserLevelBtn.onClick.AddListener(OnUserLevelBtnClickHandle);
     
-        protected override void UnBindButtonEvent() 
+
+            // 绑定开关事件
+            mMasterToggle.onValueChanged.AddListener(OnMasterToggleValueChange);
+            mMusicToggle.onValueChanged.AddListener(OnMusicToggleValueChange);
+            mEffectsToggle.onValueChanged.AddListener(OnEffectsToggleValueChange);
+            mDisplayToggle.onValueChanged.AddListener(OnDisplayToggleValueChange);
+
+            // 绑定滑动条事件
+            mMasterSlider.onValueChanged.AddListener(OnMasterSliderValueChange);
+            mMusicSlider.onValueChanged.AddListener(OnMusicSliderValueChange);
+            mEffectsSlider.onValueChanged.AddListener(OnEffectsSliderValueChange);
+        }
+
+        protected override void UnBindButtonEvent()
         {
-            		mExitBtn.onClick.RemoveAllListeners();		mUserLevelBtn.onClick.RemoveAllListeners();		mWRBtn.onClick.RemoveAllListeners();
+            mExitBtn.onClick.RemoveAllListeners();
+            mUserLevelBtn.onClick.RemoveAllListeners();
+   
+
+            // 移除开关事件
+            mMasterToggle.onValueChanged.RemoveAllListeners();
+            mMusicToggle.onValueChanged.RemoveAllListeners();
+            mEffectsToggle.onValueChanged.RemoveAllListeners();
+            mDisplayToggle.onValueChanged.RemoveAllListeners();
+
+            // 移除滑动条事件
+            mMasterSlider.onValueChanged.RemoveAllListeners();
+            mMusicSlider.onValueChanged.RemoveAllListeners();
+            mEffectsSlider.onValueChanged.RemoveAllListeners();
         }
-    
     }
 }
