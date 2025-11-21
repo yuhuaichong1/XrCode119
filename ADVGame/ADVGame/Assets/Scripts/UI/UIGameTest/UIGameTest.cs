@@ -66,7 +66,13 @@ namespace XrCode
         {
             VideoPlayerEvent.VideoPlay();
         }
-        private void OnClose()
+    
+        private void OnSettingClickHandle()
+        {
+            UIManager.Instance.OpenSync<UISetting>(EUIType.EUISetting);
+        }
+
+        private void OnCloseClickHandle()
         {
             UIManager.Instance.CloseUI(EUIType.EUIUIGameTest);
         }
