@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1340438146
+CRC: 603684054
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets/assetbundlelocal/videos/video2.mp4.assetbundle
+      Name: assets/assetbundlelocal/videos/video1.mp4.assetbundle
       Dependencies: {}
     Info_1:
-      Name: assets/assetbundlelocal/videos/video1.mp4.assetbundle
+      Name: assets/assetbundlelocal/videos/video2.mp4.assetbundle
       Dependencies: {}
     Info_2:
       Name: assets/assetbundlelocal/videos/video3.mp4.assetbundle

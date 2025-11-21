@@ -83,7 +83,6 @@ namespace XrCode
 
             if (string.IsNullOrEmpty(videoPath))
             {
-                // 对于没有视频路径的配置，直接标记为完成
                 if (_stateMachine.TryChangeState(VideoPlayerState.Completed))
                 {
                     OnVideoCompleted?.Invoke();
@@ -110,7 +109,6 @@ namespace XrCode
             _videoPlayer.clip = videoClip;
             _videoPlayer.isLooping = loop;
 
-            // 准备视频
             if (_stateMachine.TryChangeState(VideoPlayerState.Preparing))
             {
                 _videoPlayer.Prepare();
@@ -169,6 +167,14 @@ namespace XrCode
             if (!_stateMachine.CanSeek) return;
 
             float targetTime = Mathf.Min(Duration, CurrentTime + Mathf.Abs(seconds));
+
+            // 检查是否到达视频末尾
+            if (Mathf.Approximately(targetTime, Duration) || targetTime >= Duration)
+            {
+                HandleVideoEnd();
+                return;
+            }
+
             SeekInternal(targetTime);
         }
 
@@ -198,7 +204,14 @@ namespace XrCode
             // 等待跳转完成
             yield return new WaitForSeconds(0.1f);
 
-            // 根据之前的播放状态决定跳转后的状态
+            // 检查是否到达视频末尾
+            if (Mathf.Approximately((float)_videoPlayer.time, Duration) || _videoPlayer.time >= Duration)
+            {
+                HandleVideoEnd();
+                yield break;
+            }
+
+            // 恢复之前的状态
             if (_videoPlayer.isPlaying)
             {
                 _stateMachine.TryChangeState(VideoPlayerState.Playing);
@@ -214,7 +227,40 @@ namespace XrCode
         public void Seek(float time)
         {
             float clampedTime = Mathf.Clamp(time, 0, Duration);
+
+            // 检查是否到达视频末尾
+            if (Mathf.Approximately(clampedTime, Duration) || clampedTime >= Duration)
+            {
+                HandleVideoEnd();
+                return;
+            }
+
             SeekInternal(clampedTime);
+        }
+
+        // 新增方法：处理视频结束逻辑
+        private void HandleVideoEnd()
+        {
+            if (_shouldLoop)
+            {
+                // 循环播放：重新开始
+                if (_stateMachine.TryChangeState(VideoPlayerState.Seeking))
+                {
+                    _videoPlayer.time = 0;
+                    _videoPlayer.Play();
+                    _stateMachine.TryChangeState(VideoPlayerState.Playing);
+                    Debug.Log("Video looped from beginning");
+                }
+            }
+            else
+            {
+                // 不循环：标记为完成
+                if (_stateMachine.TryChangeState(VideoPlayerState.Completed))
+                {
+                    OnVideoCompleted?.Invoke();
+                    Debug.Log("Video completed after seeking to end");
+                }
+            }
         }
 
         public void NextVideo()
@@ -233,7 +279,6 @@ namespace XrCode
 
         private void OnVideoPrepared(VideoPlayer source)
         {
-            // 视频准备完成，开始播放
             if (_stateMachine.TryChangeState(VideoPlayerState.Playing))
             {
                 _videoPlayer.playbackSpeed = _normalSpeed;
@@ -244,9 +289,15 @@ namespace XrCode
 
         private void OnSeekCompleted(VideoPlayer source)
         {
-            // Unity的seekCompleted回调，这里处理跳转完成
             if (_stateMachine.CurrentState == VideoPlayerState.Seeking)
             {
+                // 检查是否到达视频末尾
+                if (Mathf.Approximately(CurrentTime, Duration) || CurrentTime >= Duration)
+                {
+                    HandleVideoEnd();
+                    return;
+                }
+
                 if (_videoPlayer.isPlaying)
                 {
                     _stateMachine.TryChangeState(VideoPlayerState.Playing);
