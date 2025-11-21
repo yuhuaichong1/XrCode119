@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 603684054
+CRC: 1182455054
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -20,8 +20,7 @@ AssetBundleManifest:
         Dependency_0: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
         Dependency_1: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
         Dependency_2: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_3: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
-        Dependency_4: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
+        Dependency_3: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
     Info_5:
       Name: assets/assetbundlelocal/ui/paytype/togglepic/bbva.png.assetbundle
       Dependencies: {}
@@ -59,510 +58,377 @@ AssetBundleManifest:
       Name: assets/assetbundlelocal/ui/paytype/togglepic/sofort.png.assetbundle
       Dependencies: {}
     Info_17:
-      Name: assets/assetbundlelocal/prefabs/ui/enterinfomation/uienterinfomation.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
-        Dependency_1: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_2: assets/ui/common/btn_close.png.assetbundle
-        Dependency_3: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_4: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_5: assets/ui/common/input_h.png.assetbundle
-        Dependency_6: assets/ui/common/tanchukuang2.png.assetbundle
-        Dependency_7: assets/ui/common/input_n.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/venmo.png.assetbundle
+      Dependencies: {}
     Info_18:
-      Name: assets/assetbundlelocal/ui/paytype/icon/bbva_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/togglepic/zelle.png.assetbundle
       Dependencies: {}
     Info_19:
-      Name: assets/assetbundlelocal/ui/paytype/icon/etransfer_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/bbva_s.png.assetbundle
       Dependencies: {}
     Info_20:
-      Name: assets/assetbundlelocal/ui/paytype/icon/other_s 1.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/etransfer_s.png.assetbundle
       Dependencies: {}
     Info_21:
-      Name: assets/assetbundlelocal/ui/paytype/icon/other_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/other_s 1.png.assetbundle
       Dependencies: {}
     Info_22:
-      Name: assets/assetbundlelocal/ui/paytype/icon/pago_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/other_s.png.assetbundle
       Dependencies: {}
     Info_23:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paylib_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/pago_s.png.assetbundle
       Dependencies: {}
     Info_24:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paypal_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/paylib_s.png.assetbundle
       Dependencies: {}
     Info_25:
-      Name: assets/assetbundlelocal/ui/paytype/icon/paypay_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/paypal_s.png.assetbundle
       Dependencies: {}
     Info_26:
-      Name: assets/assetbundlelocal/ui/paytype/icon/picpay_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/paypay_s.png.assetbundle
       Dependencies: {}
     Info_27:
-      Name: assets/assetbundlelocal/ui/paytype/icon/pix_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/picpay_s.png.assetbundle
       Dependencies: {}
     Info_28:
-      Name: assets/assetbundlelocal/ui/paytype/icon/revolut_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/pix_s.png.assetbundle
       Dependencies: {}
     Info_29:
-      Name: assets/assetbundlelocal/ui/paytype/icon/skrill_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/revolut_s.png.assetbundle
       Dependencies: {}
     Info_30:
-      Name: assets/assetbundlelocal/ui/paytype/icon/sofort_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/skrill_s.png.assetbundle
       Dependencies: {}
     Info_31:
-      Name: assets/assetbundlelocal/ui/paytype/icon/venmo_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/sofort_s.png.assetbundle
       Dependencies: {}
     Info_32:
-      Name: assets/assetbundlelocal/ui/paytype/icon/zelle_s.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/venmo_s.png.assetbundle
       Dependencies: {}
     Info_33:
-      Name: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
+      Name: assets/assetbundlelocal/ui/paytype/icon/zelle_s.png.assetbundle
       Dependencies: {}
     Info_34:
-      Name: assets/assetbundlelocal/ui/logo/brazilian_portuguese_logo.png.assetbundle
+      Name: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
       Dependencies: {}
     Info_35:
-      Name: assets/assetbundlelocal/prefabs/ui/loading/uiloading.prefab.assetbundle
+      Name: assets/assetbundlelocal/ui/logo/brazilian_portuguese_logo.png.assetbundle
       Dependencies: {}
     Info_36:
+      Name: assets/assetbundlelocal/prefabs/ui/loading/uiloading.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/ui/loading/loadingbg.jpg.assetbundle
+    Info_37:
       Name: assets/assetbundlelocal/ui/logo/french_logo.png.assetbundle
       Dependencies: {}
-    Info_37:
+    Info_38:
       Name: assets/assetbundlelocal/ui/logo/german_logo.png.assetbundle
       Dependencies: {}
-    Info_38:
+    Info_39:
       Name: assets/assetbundlelocal/ui/logo/indonesian_logo.png.assetbundle
       Dependencies: {}
-    Info_39:
+    Info_40:
       Name: assets/assetbundlelocal/ui/logo/japanese_logo.png.assetbundle
       Dependencies: {}
-    Info_40:
+    Info_41:
       Name: assets/assetbundlelocal/ui/logo/korean_logo.png.assetbundle
       Dependencies: {}
-    Info_41:
+    Info_42:
       Name: assets/assetbundlelocal/ui/logo/spanish_logo.png.assetbundle
       Dependencies: {}
-    Info_42:
+    Info_43:
       Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop1.png.assetbundle
       Dependencies: {}
-    Info_43:
+    Info_44:
       Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop2.png.assetbundle
       Dependencies: {}
-    Info_44:
-      Name: assets/assetbundlelocal/prefabs/ui/prop/uiprop.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_close.png.assetbundle
-        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_4: assets/ui/common/planebg.png.assetbundle
-        Dependency_5: assets/ui/prop/texiao_faguang.png.assetbundle
-        Dependency_6: assets/ui/common/icon_move.png.assetbundle
     Info_45:
+      Name: assets/assetbundlelocal/ui/funcicon/lfuncicon_prop3.png.assetbundle
+      Dependencies: {}
+    Info_46:
       Name: assets/assetbundlelocal/prefabs/ui/gameplay/uigameplay.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/assetbundlelocal/ui/luckyspinicons/icon_qianbi.png.assetbundle
         Dependency_1: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
-        Dependency_2: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_3: assets/ui/gameplay/gameplaybg.png.assetbundle
-        Dependency_4: assets/ui/common/icon_move.png.assetbundle
-    Info_46:
+        Dependency_2: assets/ui/gameplay/gameplaybg.png.assetbundle
+        Dependency_3: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+    Info_47:
       Name: assets/assetbundlelocal/ui/funcicon/sfuncicon_prop3.png.assetbundle
       Dependencies: {}
-    Info_47:
-      Name: assets/assetbundlelocal/prefabs/ui/withdrawalrecords/uiwithdrawalrecords.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
-        Dependency_2: assets/ui/common/tixian_qianshu_bg.png.assetbundle
-        Dependency_3: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
-        Dependency_4: assets/ui/common/btn_close.png.assetbundle
     Info_48:
-      Name: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-      Dependencies: {}
-    Info_49:
-      Name: assets/ui/withdrawalrecords/list_bg_h.png.assetbundle
-      Dependencies: {}
-    Info_50:
-      Name: assets/ui/common/tixian_qianshu_bg.png.assetbundle
-      Dependencies: {}
-    Info_51:
-      Name: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
-      Dependencies: {}
-    Info_52:
-      Name: assets/ui/common/btn_close.png.assetbundle
-      Dependencies: {}
-    Info_53:
-      Name: assets/assetbundlelocal/prefabs/ui/withdrawalamount/uiwithdrawalamount.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/tixian_qianshu_bg.png.assetbundle
-        Dependency_2: assets/ui/common/tixian_tanchukuang_bg.png.assetbundle
-        Dependency_3: assets/ui/common/btn_close.png.assetbundle
-        Dependency_4: assets/ui/common/btn_yellow.png.assetbundle
-    Info_54:
-      Name: assets/ui/common/btn_yellow.png.assetbundle
-      Dependencies: {}
-    Info_55:
-      Name: assets/assetbundlelocal/prefabs/ui/userlevel/uiuserlevel.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_close.png.assetbundle
-        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_4: assets/ui/common/jindutiao_664_h.png.assetbundle
-        Dependency_5: assets/ui/common/jindutiao_664.png.assetbundle
-        Dependency_6: assets/ui/common/planebg.png.assetbundle
-    Info_56:
-      Name: assets/ui/common/img_neirongkuang_800.png.assetbundle
-      Dependencies: {}
-    Info_57:
-      Name: assets/ui/common/jindutiao_664_h.png.assetbundle
-      Dependencies: {}
-    Info_58:
-      Name: assets/ui/common/jindutiao_664.png.assetbundle
-      Dependencies: {}
-    Info_59:
-      Name: assets/ui/common/planebg.png.assetbundle
-      Dependencies: {}
-    Info_60:
       Name: assets/assetbundlelocal/prefabs/ui/uiselectionpanel/uiselectionpanel.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/ui/gameplay/gameplaybg.png.assetbundle
-    Info_61:
+    Info_49:
       Name: assets/ui/gameplay/gameplaybg.png.assetbundle
       Dependencies: {}
-    Info_62:
+    Info_50:
       Name: assets/assetbundlelocal/prefabs/ui/uigametest/uigametest.prefab.assetbundle
       Dependencies: {}
-    Info_63:
+    Info_51:
+      Name: assets/assetbundlelocal/prefabs/ui/timeline/uitimeline.prefab.assetbundle
+      Dependencies:
+        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+        Dependency_1: assets/ui/loading/loadingbg.jpg.assetbundle
+    Info_52:
+      Name: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+      Dependencies: {}
+    Info_53:
+      Name: assets/ui/loading/loadingbg.jpg.assetbundle
+      Dependencies: {}
+    Info_54:
       Name: assets/assetbundlelocal/prefabs/ui/setting/uisetting.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_close.png.assetbundle
-        Dependency_2: assets/ui/common/planebg.png.assetbundle
-    Info_64:
-      Name: assets/assetbundlelocal/prefabs/ui/restart/uirestart.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_close.png.assetbundle
-        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_4: assets/ui/common/planebg.png.assetbundle
-        Dependency_5: assets/ui/prop/texiao_faguang.png.assetbundle
-    Info_65:
-      Name: assets/ui/prop/texiao_faguang.png.assetbundle
-      Dependencies: {}
-    Info_66:
-      Name: assets/ui/common/icon_move.png.assetbundle
-      Dependencies: {}
-    Info_67:
+    Info_55:
       Name: assets/assetbundlelocal/prefabs/ui/notice/noticeitem.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-    Info_68:
+    Info_56:
       Name: assets/assetbundlelocal/prefabs/ui/notice/uinotice.prefab.assetbundle
       Dependencies: {}
-    Info_69:
-      Name: assets/assetbundlelocal/prefabs/ui/luckyreward/uiluckyreward.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_2: assets/ui/common/icon_move.png.assetbundle
-        Dependency_3: assets/ui/common/btn_green.png.assetbundle
-    Info_70:
-      Name: assets/ui/common/btn_green.png.assetbundle
-      Dependencies: {}
-    Info_71:
-      Name: assets/assetbundlelocal/prefabs/ui/levelfailure/uilevelfailure.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_2: assets/ui/common/jindutiao_664_h.png.assetbundle
-        Dependency_3: assets/ui/common/jindutiao_664.png.assetbundle
-        Dependency_4: assets/ui/common/icon_move.png.assetbundle
-        Dependency_5: assets/ui/common/btn_green.png.assetbundle
-        Dependency_6: assets/ui/common/img_huakuang_bg.png.assetbundle
-    Info_72:
-      Name: assets/ui/common/img_huakuang_bg.png.assetbundle
-      Dependencies: {}
-    Info_73:
-      Name: assets/assetbundlelocal/prefabs/ui/levelcompleted/uilevelcompleted.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_2: assets/ui/common/icon_move.png.assetbundle
-        Dependency_3: assets/ui/common/btn_green.png.assetbundle
-        Dependency_4: assets/ui/common/img_huakuang_bg.png.assetbundle
-    Info_74:
+    Info_57:
       Name: assets/assetbundlelocal/prefabs/ui/guide/uiguide.prefab.assetbundle
       Dependencies:
         Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-    Info_75:
-      Name: assets/assetbundlelocal/prefabs/ui/feedback/uifeedback.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_1: assets/ui/common/btn_close.png.assetbundle
-        Dependency_2: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_3: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_4: assets/ui/common/input_h.png.assetbundle
-        Dependency_5: assets/ui/common/tanchukuang2.png.assetbundle
-        Dependency_6: assets/ui/common/input_n.png.assetbundle
-    Info_76:
-      Name: assets/ui/common/input_h.png.assetbundle
-      Dependencies: {}
-    Info_77:
-      Name: assets/ui/common/tanchukuang2.png.assetbundle
-      Dependencies: {}
-    Info_78:
-      Name: assets/ui/common/input_n.png.assetbundle
-      Dependencies: {}
-    Info_79:
+    Info_58:
       Name: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
       Dependencies: {}
-    Info_80:
-      Name: assets/assetbundlelocal/prefabs/ui/confirm/uiconfirm.prefab.assetbundle
-      Dependencies:
-        Dependency_0: assets/assetbundlelocal/ui/paytype/togglepic/paypal.png.assetbundle
-        Dependency_1: assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
-        Dependency_2: assets/ui/common/btn_close.png.assetbundle
-        Dependency_3: assets/ui/common/btn_yellow.png.assetbundle
-        Dependency_4: assets/ui/common/img_neirongkuang_800.png.assetbundle
-        Dependency_5: assets/ui/common/tanchukuang2.png.assetbundle
-    Info_81:
+    Info_59:
       Name: assets/assetbundlelocal/materials/skeletongraphicdefault2.mat.assetbundle
       Dependencies:
         Dependency_0: assets/spine/runtime/spine-unity/shaders/skeletongraphic/spine-skeletongraphic.shader.assetbundle
-    Info_82:
+    Info_60:
       Name: assets/assetbundlelocal/json/levels/lv_0.json.assetbundle
       Dependencies: {}
-    Info_83:
+    Info_61:
       Name: assets/assetbundlelocal/json/levels/lv_1.json.assetbundle
       Dependencies: {}
-    Info_84:
+    Info_62:
       Name: assets/assetbundlelocal/json/levels/lv_10.json.assetbundle
       Dependencies: {}
-    Info_85:
+    Info_63:
       Name: assets/assetbundlelocal/json/levels/lv_11.json.assetbundle
       Dependencies: {}
-    Info_86:
+    Info_64:
       Name: assets/assetbundlelocal/json/levels/lv_12.json.assetbundle
       Dependencies: {}
-    Info_87:
+    Info_65:
       Name: assets/assetbundlelocal/json/levels/lv_13.json.assetbundle
       Dependencies: {}
-    Info_88:
+    Info_66:
       Name: assets/assetbundlelocal/json/levels/lv_14.json.assetbundle
       Dependencies: {}
-    Info_89:
+    Info_67:
       Name: assets/assetbundlelocal/json/levels/lv_15.json.assetbundle
       Dependencies: {}
-    Info_90:
+    Info_68:
       Name: assets/assetbundlelocal/json/levels/lv_16.json.assetbundle
       Dependencies: {}
-    Info_91:
+    Info_69:
       Name: assets/assetbundlelocal/json/levels/lv_17.json.assetbundle
       Dependencies: {}
-    Info_92:
+    Info_70:
       Name: assets/assetbundlelocal/json/levels/lv_18.json.assetbundle
       Dependencies: {}
-    Info_93:
+    Info_71:
       Name: assets/assetbundlelocal/json/levels/lv_19.json.assetbundle
       Dependencies: {}
-    Info_94:
+    Info_72:
       Name: assets/assetbundlelocal/json/levels/lv_2.json.assetbundle
       Dependencies: {}
-    Info_95:
+    Info_73:
       Name: assets/assetbundlelocal/json/levels/lv_20.json.assetbundle
       Dependencies: {}
-    Info_96:
+    Info_74:
       Name: assets/assetbundlelocal/json/levels/lv_21.json.assetbundle
       Dependencies: {}
-    Info_97:
+    Info_75:
       Name: assets/assetbundlelocal/json/levels/lv_22.json.assetbundle
       Dependencies: {}
-    Info_98:
+    Info_76:
       Name: assets/assetbundlelocal/json/levels/lv_23.json.assetbundle
       Dependencies: {}
-    Info_99:
+    Info_77:
       Name: assets/assetbundlelocal/json/levels/lv_24.json.assetbundle
       Dependencies: {}
-    Info_100:
+    Info_78:
       Name: assets/assetbundlelocal/json/levels/lv_25.json.assetbundle
       Dependencies: {}
-    Info_101:
+    Info_79:
       Name: assets/assetbundlelocal/json/levels/lv_26.json.assetbundle
       Dependencies: {}
-    Info_102:
+    Info_80:
       Name: assets/assetbundlelocal/json/levels/lv_27.json.assetbundle
       Dependencies: {}
-    Info_103:
+    Info_81:
       Name: assets/assetbundlelocal/json/levels/lv_28.json.assetbundle
       Dependencies: {}
-    Info_104:
+    Info_82:
       Name: assets/assetbundlelocal/json/levels/lv_29.json.assetbundle
       Dependencies: {}
-    Info_105:
+    Info_83:
       Name: assets/assetbundlelocal/json/levels/lv_3.json.assetbundle
       Dependencies: {}
-    Info_106:
+    Info_84:
       Name: assets/assetbundlelocal/json/levels/lv_30.json.assetbundle
       Dependencies: {}
-    Info_107:
+    Info_85:
       Name: assets/assetbundlelocal/json/levels/lv_31.json.assetbundle
       Dependencies: {}
-    Info_108:
+    Info_86:
       Name: assets/assetbundlelocal/json/levels/lv_32.json.assetbundle
       Dependencies: {}
-    Info_109:
+    Info_87:
       Name: assets/assetbundlelocal/json/levels/lv_33.json.assetbundle
       Dependencies: {}
-    Info_110:
+    Info_88:
       Name: assets/assetbundlelocal/json/levels/lv_34.json.assetbundle
       Dependencies: {}
-    Info_111:
+    Info_89:
       Name: assets/assetbundlelocal/json/levels/lv_35.json.assetbundle
       Dependencies: {}
-    Info_112:
+    Info_90:
       Name: assets/assetbundlelocal/json/levels/lv_36.json.assetbundle
       Dependencies: {}
-    Info_113:
+    Info_91:
       Name: assets/assetbundlelocal/json/levels/lv_37.json.assetbundle
       Dependencies: {}
-    Info_114:
+    Info_92:
       Name: assets/assetbundlelocal/json/levels/lv_38.json.assetbundle
       Dependencies: {}
-    Info_115:
+    Info_93:
       Name: assets/assetbundlelocal/json/levels/lv_39.json.assetbundle
       Dependencies: {}
-    Info_116:
+    Info_94:
       Name: assets/assetbundlelocal/json/levels/lv_4.json.assetbundle
       Dependencies: {}
-    Info_117:
+    Info_95:
       Name: assets/assetbundlelocal/json/levels/lv_40.json.assetbundle
       Dependencies: {}
-    Info_118:
+    Info_96:
       Name: assets/assetbundlelocal/json/levels/lv_41.json.assetbundle
       Dependencies: {}
-    Info_119:
+    Info_97:
       Name: assets/assetbundlelocal/json/levels/lv_42.json.assetbundle
       Dependencies: {}
-    Info_120:
+    Info_98:
       Name: assets/assetbundlelocal/json/levels/lv_43.json.assetbundle
       Dependencies: {}
-    Info_121:
+    Info_99:
       Name: assets/assetbundlelocal/json/levels/lv_44.json.assetbundle
       Dependencies: {}
-    Info_122:
+    Info_100:
       Name: assets/assetbundlelocal/json/levels/lv_45.json.assetbundle
       Dependencies: {}
-    Info_123:
+    Info_101:
       Name: assets/assetbundlelocal/json/levels/lv_46.json.assetbundle
       Dependencies: {}
-    Info_124:
+    Info_102:
       Name: assets/assetbundlelocal/json/levels/lv_47.json.assetbundle
       Dependencies: {}
-    Info_125:
+    Info_103:
       Name: assets/assetbundlelocal/json/levels/lv_48.json.assetbundle
       Dependencies: {}
-    Info_126:
+    Info_104:
       Name: assets/assetbundlelocal/json/levels/lv_49.json.assetbundle
       Dependencies: {}
-    Info_127:
+    Info_105:
       Name: assets/assetbundlelocal/json/levels/lv_5.json.assetbundle
       Dependencies: {}
-    Info_128:
+    Info_106:
       Name: assets/assetbundlelocal/json/levels/lv_50.json.assetbundle
       Dependencies: {}
-    Info_129:
+    Info_107:
       Name: assets/assetbundlelocal/json/levels/lv_51.json.assetbundle
       Dependencies: {}
-    Info_130:
+    Info_108:
       Name: assets/assetbundlelocal/json/levels/lv_52.json.assetbundle
       Dependencies: {}
-    Info_131:
+    Info_109:
       Name: assets/assetbundlelocal/json/levels/lv_53.json.assetbundle
       Dependencies: {}
-    Info_132:
+    Info_110:
       Name: assets/assetbundlelocal/json/levels/lv_54.json.assetbundle
       Dependencies: {}
-    Info_133:
+    Info_111:
       Name: assets/assetbundlelocal/json/levels/lv_55.json.assetbundle
       Dependencies: {}
-    Info_134:
+    Info_112:
       Name: assets/assetbundlelocal/json/levels/lv_56.json.assetbundle
       Dependencies: {}
-    Info_135:
+    Info_113:
       Name: assets/assetbundlelocal/json/levels/lv_57.json.assetbundle
       Dependencies: {}
-    Info_136:
+    Info_114:
       Name: assets/assetbundlelocal/json/levels/lv_58.json.assetbundle
       Dependencies: {}
-    Info_137:
+    Info_115:
       Name: assets/assetbundlelocal/json/levels/lv_59.json.assetbundle
       Dependencies: {}
-    Info_138:
+    Info_116:
       Name: assets/assetbundlelocal/json/levels/lv_6.json.assetbundle
       Dependencies: {}
-    Info_139:
+    Info_117:
       Name: assets/assetbundlelocal/json/levels/lv_60.json.assetbundle
       Dependencies: {}
-    Info_140:
+    Info_118:
       Name: assets/assetbundlelocal/json/levels/lv_7.json.assetbundle
       Dependencies: {}
-    Info_141:
+    Info_119:
       Name: assets/assetbundlelocal/json/levels/lv_8.json.assetbundle
       Dependencies: {}
-    Info_142:
+    Info_120:
       Name: assets/assetbundlelocal/json/levels/lv_9.json.assetbundle
       Dependencies: {}
-    Info_143:
+    Info_121:
       Name: assets/assetbundlelocal/config/pathbundleconfig.bytes.assetbundle
       Dependencies: {}
-    Info_144:
+    Info_122:
       Name: assets/assetbundlelocal/audio/bgm.ogg.assetbundle
       Dependencies: {}
-    Info_145:
+    Info_123:
       Name: assets/assetbundlelocal/audio/broom.wav.assetbundle
       Dependencies: {}
-    Info_146:
+    Info_124:
       Name: assets/assetbundlelocal/audio/button.wav.assetbundle
       Dependencies: {}
-    Info_147:
+    Info_125:
       Name: assets/assetbundlelocal/audio/changeorder.wav.assetbundle
       Dependencies: {}
-    Info_148:
+    Info_126:
       Name: assets/assetbundlelocal/audio/changeorder2.wav.assetbundle
       Dependencies: {}
-    Info_149:
+    Info_127:
       Name: assets/assetbundlelocal/audio/click2.wav.assetbundle
       Dependencies: {}
-    Info_150:
+    Info_128:
       Name: assets/assetbundlelocal/audio/gamewin.wav.assetbundle
       Dependencies: {}
-    Info_151:
+    Info_129:
       Name: assets/assetbundlelocal/audio/hammer.wav.assetbundle
       Dependencies: {}
-    Info_152:
+    Info_130:
       Name: assets/assetbundlelocal/audio/levelcomplete.wav.assetbundle
       Dependencies: {}
-    Info_153:
+    Info_131:
       Name: assets/assetbundlelocal/audio/levelfailed.wav.assetbundle
       Dependencies: {}
-    Info_154:
+    Info_132:
       Name: assets/assetbundlelocal/audio/operate.wav.assetbundle
       Dependencies: {}
-    Info_155:
+    Info_133:
       Name: assets/assetbundlelocal/audio/orderunlock.wav.assetbundle
       Dependencies: {}
-    Info_156:
+    Info_134:
       Name: assets/assetbundlelocal/audio/ropetexture.wav.assetbundle
       Dependencies: {}
-    Info_157:
+    Info_135:
       Name: assets/assetbundlelocal/audio/ropetexture2.wav.assetbundle
       Dependencies: {}
-    Info_158:
+    Info_136:
       Name: assets/assetbundlelocal/audio/ropetexture3.wav.assetbundle
       Dependencies: {}
-    Info_159:
+    Info_137:
       Name: assets/assetbundlelocal/audio/ropetexture4.wav.assetbundle
       Dependencies: {}

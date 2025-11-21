@@ -24,12 +24,8 @@ namespace cfg
 		public TbLanguage TbLanguage {get; private set;}
 		public TBAudio TBAudio {get; private set;}
 		public TBGuides TBGuides {get; private set;}
-		public TBLevel TBLevel {get; private set;}
 		public TBPayRegion TBPayRegion {get; private set;}
 		public TBPayChannel TBPayChannel {get; private set;}
-		public TBProp TBProp {get; private set;}
-		public TBLuckySpin TBLuckySpin {get; private set;}
-		public TBUserLevel TBUserLevel {get; private set;}
 		public TBLoadingTitleSprite TBLoadingTitleSprite {get; private set;}
 		public TBStoryline TBStoryline {get; private set;}
 
@@ -53,18 +49,10 @@ namespace cfg
 			tables.Add("TBAudio", TBAudio);
 			TBGuides = new TBGuides(loader("tbguides")); 
 			tables.Add("TBGuides", TBGuides);
-			TBLevel = new TBLevel(loader("tblevel")); 
-			tables.Add("TBLevel", TBLevel);
 			TBPayRegion = new TBPayRegion(loader("tbpayregion")); 
 			tables.Add("TBPayRegion", TBPayRegion);
 			TBPayChannel = new TBPayChannel(loader("tbpaychannel")); 
 			tables.Add("TBPayChannel", TBPayChannel);
-			TBProp = new TBProp(loader("tbprop")); 
-			tables.Add("TBProp", TBProp);
-			TBLuckySpin = new TBLuckySpin(loader("tbluckyspin")); 
-			tables.Add("TBLuckySpin", TBLuckySpin);
-			TBUserLevel = new TBUserLevel(loader("tbuserlevel")); 
-			tables.Add("TBUserLevel", TBUserLevel);
 			TBLoadingTitleSprite = new TBLoadingTitleSprite(loader("tbloadingtitlesprite")); 
 			tables.Add("TBLoadingTitleSprite", TBLoadingTitleSprite);
 			TBStoryline = new TBStoryline(loader("tbstoryline")); 
@@ -89,18 +77,10 @@ namespace cfg
             configCbFuncs.Enqueue(OnTBAudioDataFinish);
 			configNames.Enqueue("tbguides");
             configCbFuncs.Enqueue(OnTBGuidesDataFinish);
-			configNames.Enqueue("tblevel");
-            configCbFuncs.Enqueue(OnTBLevelDataFinish);
 			configNames.Enqueue("tbpayregion");
             configCbFuncs.Enqueue(OnTBPayRegionDataFinish);
 			configNames.Enqueue("tbpaychannel");
             configCbFuncs.Enqueue(OnTBPayChannelDataFinish);
-			configNames.Enqueue("tbprop");
-            configCbFuncs.Enqueue(OnTBPropDataFinish);
-			configNames.Enqueue("tbluckyspin");
-            configCbFuncs.Enqueue(OnTBLuckySpinDataFinish);
-			configNames.Enqueue("tbuserlevel");
-            configCbFuncs.Enqueue(OnTBUserLevelDataFinish);
 			configNames.Enqueue("tbloadingtitlesprite");
             configCbFuncs.Enqueue(OnTBLoadingTitleSpriteDataFinish);
 			configNames.Enqueue("tbstoryline");
@@ -151,12 +131,8 @@ namespace cfg
 			TbLanguage.TranslateText(translator); 
 			TBAudio.TranslateText(translator); 
 			TBGuides.TranslateText(translator); 
-			TBLevel.TranslateText(translator); 
 			TBPayRegion.TranslateText(translator); 
 			TBPayChannel.TranslateText(translator); 
-			TBProp.TranslateText(translator); 
-			TBLuckySpin.TranslateText(translator); 
-			TBUserLevel.TranslateText(translator); 
 			TBLoadingTitleSprite.TranslateText(translator); 
 			TBStoryline.TranslateText(translator); 
 		}
@@ -170,12 +146,8 @@ namespace cfg
 			TbLanguage.Resolve(tables);
 			TBAudio.Resolve(tables);
 			TBGuides.Resolve(tables);
-			TBLevel.Resolve(tables);
 			TBPayRegion.Resolve(tables);
 			TBPayChannel.Resolve(tables);
-			TBProp.Resolve(tables);
-			TBLuckySpin.Resolve(tables);
-			TBUserLevel.Resolve(tables);
 			TBLoadingTitleSprite.Resolve(tables);
 			TBStoryline.Resolve(tables);
 		}
@@ -201,23 +173,11 @@ namespace cfg
 				case "TBGuides":
 					TBGuides.Reload(_loader("TBGuides"));
 					break;
-				case "TBLevel":
-					TBLevel.Reload(_loader("TBLevel"));
-					break;
 				case "TBPayRegion":
 					TBPayRegion.Reload(_loader("TBPayRegion"));
 					break;
 				case "TBPayChannel":
 					TBPayChannel.Reload(_loader("TBPayChannel"));
-					break;
-				case "TBProp":
-					TBProp.Reload(_loader("TBProp"));
-					break;
-				case "TBLuckySpin":
-					TBLuckySpin.Reload(_loader("TBLuckySpin"));
-					break;
-				case "TBUserLevel":
-					TBUserLevel.Reload(_loader("TBUserLevel"));
 					break;
 				case "TBLoadingTitleSprite":
 					TBLoadingTitleSprite.Reload(_loader("TBLoadingTitleSprite"));
@@ -264,11 +224,6 @@ namespace cfg
 			TBGuides = new TBGuides(buf);
 			tables.Add("TBGuides", TBGuides);
 		}
-		public void OnTBLevelDataFinish(ByteBuf buf)
-		{
-			TBLevel = new TBLevel(buf);
-			tables.Add("TBLevel", TBLevel);
-		}
 		public void OnTBPayRegionDataFinish(ByteBuf buf)
 		{
 			TBPayRegion = new TBPayRegion(buf);
@@ -278,21 +233,6 @@ namespace cfg
 		{
 			TBPayChannel = new TBPayChannel(buf);
 			tables.Add("TBPayChannel", TBPayChannel);
-		}
-		public void OnTBPropDataFinish(ByteBuf buf)
-		{
-			TBProp = new TBProp(buf);
-			tables.Add("TBProp", TBProp);
-		}
-		public void OnTBLuckySpinDataFinish(ByteBuf buf)
-		{
-			TBLuckySpin = new TBLuckySpin(buf);
-			tables.Add("TBLuckySpin", TBLuckySpin);
-		}
-		public void OnTBUserLevelDataFinish(ByteBuf buf)
-		{
-			TBUserLevel = new TBUserLevel(buf);
-			tables.Add("TBUserLevel", TBUserLevel);
 		}
 		public void OnTBLoadingTitleSpriteDataFinish(ByteBuf buf)
 		{

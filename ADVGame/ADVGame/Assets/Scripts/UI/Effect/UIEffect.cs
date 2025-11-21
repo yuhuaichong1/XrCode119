@@ -96,12 +96,12 @@ namespace XrCode
         private void SetLevelTargetText()
         {
 
-            int actualLevel = FacadePlayer.GetLevel() + 1;
-            mMiniTargetText.text = GetLevelDisplayText(actualLevel);
-            mMiniDialog.gameObject.SetActive(true);
+            //int actualLevel = FacadePlayer.GetLevel() + 1;
+            //mMiniTargetText.text = GetLevelDisplayText(actualLevel);
+            //mMiniDialog.gameObject.SetActive(true);
 
-            //mNextTargetText.text = FacadeWithdrawal.GetTipMsg();
-            mDialogText.text = string.Format(FacadeLanguage.GetText("10020"), (int)UnityEngine.Random.Range(GameDefines.TargetArriveTime.x, GameDefines.TargetArriveTime.y + 1));
+            ////mNextTargetText.text = FacadeWithdrawal.GetTipMsg();
+            //mDialogText.text = string.Format(FacadeLanguage.GetText("10020"), (int)UnityEngine.Random.Range(GameDefines.TargetArriveTime.x, GameDefines.TargetArriveTime.y + 1));
         }
         #endregion
 

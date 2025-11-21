@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2638365294
+CRC: 53325863
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d0938287f573b0b0f0c9ce6130ca7ef6
+    Hash: 4267fb73ecebcda26a3767c4e6c56a9b
   TypeTreeHash:
     serializedVersion: 2
     Hash: f7b33bdb2ff934ce3a6175de602ff51b
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: d0938287f573b0b0f0c9ce6130ca7ef6
+    Hash: 4267fb73ecebcda26a3767c4e6c56a9b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -71,7 +71,6 @@ Assets:
 - Assets/UI/GamePlay/btn_3.png
 - Assets/AssetBundleLocal/Prefabs/UI/GamePlay/UIGamePlay.prefab
 - Assets/UI/GamePlay/qianbi_bg.png
-- Assets/UI/GamePlay/guanqia_bg.png
 - Assets/UI/Common/btn_shezhi.png
 - Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop2.png
 - Assets/AssetBundleLocal/UI/FuncIcon/SFuncIcon_Prop1.png

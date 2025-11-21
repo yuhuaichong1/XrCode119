@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1572841115
+CRC: 2453157663
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 67186cb1bec02c25daad0c3d619a809b
+    Hash: c693549ec802caba65b86016e7bc0a46
   TypeTreeHash:
     serializedVersion: 2
     Hash: 702d1cce40745a434a4ef9ff1710356e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 67186cb1bec02c25daad0c3d619a809b
+    Hash: c693549ec802caba65b86016e7bc0a46
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -73,7 +73,6 @@ Assets:
 - Assets/UI/WithdrawalTotal/PlayerIcon/player1.png
 - Assets/UI/Setting/zhendong.png
 - Assets/UI/Setting/settingToggleBg_Off.png
-- Assets/Tools/EasyTouchBundle/EasyTouch/Example/_Medias/Sprites/Frame01.png
 - Assets/UI/Common/PlaneBg.png
 - Assets/AssetBundleLocal/Prefabs/UI/Setting/UISetting.prefab
 Dependencies:

@@ -23,7 +23,6 @@ namespace XrCode
 
             mUserNameText.text = $"{FacadePlayer.GetPlayerName()}";
             mUserIDText.text = $"{FacadeLanguage.GetText("10009")}:{FacadePlayer.GetPlayerID().Substring(0, 13)}..."; 
-            mUserLv.text = $"{FacadeLanguage.GetText("10010")}.{FacadePlayer.GetPlayerLevel() + 1}";
 
             ShowAnim(mPlane);
             //MT_Show(FacadeAudio.GetMusicVolume() == 1);
