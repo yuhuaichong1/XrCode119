@@ -111,6 +111,12 @@ R
 =Assets/AssetBundleLocal/Prefabs/UI/TimeLine/UITimeLine.prefabIassets/assetbundlelocal/prefabs/ui/timeline/uitimeline.prefab.assetbundle
 n
 /Assets/AssetBundleLocal/Font/HirukoPro_Bold.ttf;assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+P
+ Assets/UI/Timeline/LinePart1.png,assets/ui/timeline/linepart1.png.assetbundle
+Ž
+AAssets/AssetBundleLocal/Prefabs/Timeline/Chapters/Chapter1.prefabIassets/assetbundlelocal/prefabs/ui/timeline/uitimeline.prefab.assetbundle
+P
+ Assets/UI/Timeline/LinePart2.png,assets/ui/timeline/linepart2.png.assetbundle
 N
 Assets/UI/Loading/loadingBg.jpg+assets/ui/loading/loadingbg.jpg.assetbundle
 †
@@ -285,14 +291,12 @@ k
 fAssets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.matEassets/assetbundlelocal/prefabs/ui/effect/uieffect.prefab.assetbundle
 †
 ;Assets/AssetBundleLocal/Prefabs/Timeline/lines/ILine.prefabGassets/assetbundlelocal/prefabs/timeline/lines/iline.prefab.assetbundle
-P
- Assets/UI/Timeline/LinePart1.png,assets/ui/timeline/linepart1.png.assetbundle
 †
 ;Assets/AssetBundleLocal/Prefabs/Timeline/lines/ULine.prefabGassets/assetbundlelocal/prefabs/timeline/lines/uline.prefab.assetbundle
-P
- Assets/UI/Timeline/LinePart2.png,assets/ui/timeline/linepart2.png.assetbundle
 †
 ;Assets/AssetBundleLocal/Prefabs/Timeline/lines/ZLine.prefabGassets/assetbundlelocal/prefabs/timeline/lines/zline.prefab.assetbundle
+–
+CAssets/AssetBundleLocal/Prefabs/Timeline/Items/GoalTimePoint.prefabOassets/assetbundlelocal/prefabs/timeline/items/goaltimepoint.prefab.assetbundle
 ž
 GAssets/AssetBundleLocal/Prefabs/Timeline/Items/InteractTimePoint.prefabSassets/assetbundlelocal/prefabs/timeline/items/interacttimepoint.prefab.assetbundle
 š

@@ -1,24 +1,20 @@
 ManifestFileVersion: 0
-CRC: 3109276400
+CRC: 1855575294
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 53efae84094384864dd66a5db500d649
+    Hash: 3f37b68c0d3481380d49b008b7bfef58
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 430ecba1c5b6895ceddaf080453c6fcf
+    Hash: 702d1cce40745a434a4ef9ff1710356e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 53efae84094384864dd66a5db500d649
+    Hash: 3f37b68c0d3481380d49b008b7bfef58
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 48
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -27,11 +23,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f5d8f3b9cfa92c3439d0cadae9462190, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e36f42dd8121dec4792e6c65f42c5a78, type: 3}
 - Class: 114
@@ -66,8 +62,6 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Navigation
 - AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.Slider/SliderEvent
-- AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
@@ -82,4 +76,4 @@ Assets:
 - Assets/UI/Common/PlaneBg.png
 - Assets/AssetBundleLocal/Prefabs/UI/Setting/UISetting.prefab
 Dependencies:
-- E:/UnityProject/video/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
+- D:/ADVGame/ADVGame/ADVGame/Assets/StreamingAssets/AssetBundles/assets/assetbundlelocal/font/hirukopro_bold.ttf.assetbundle
