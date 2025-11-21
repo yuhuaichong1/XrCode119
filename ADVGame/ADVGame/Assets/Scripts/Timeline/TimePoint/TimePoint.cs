@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using XrCode;
 
 public class TimePoint : MonoBehaviour
 {
@@ -48,10 +49,13 @@ public class TimePoint : MonoBehaviour
 
     public void OnTPBtnClick()
     {
-        //SUIManager.Instance.HideUI<UIStoryLine>("UIStoryLine", () => 
-        //{
-        //    FacadeVedio.PlayVedio(TPId);
-        //});
+        D.Log("²¥·Å£º" + TPId);
+
+        UIManager.Instance.CloseUI(EUIType.EUITimeLine);
+        UIManager.Instance.OpenAsync<UIGameTest>(EUIType.EUIUIGameTest, (BaseUI) => 
+        {
+            VideoPlayerEvent.SelectVideoPlay(TPId);
+        });
     }
 
     void OnDestroy()

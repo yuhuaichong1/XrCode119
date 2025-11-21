@@ -93,7 +93,9 @@
     <Compile Include="Assets\Tools\XrCode\Editor\UI\UIPanelBehaviourEditor.cs" />
     <Compile Include="Assets\Tools\XrCode\Editor\EditorSetting.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
+    <Compile Include="Assets\Scripts\Timeline\Editor\TimeLineSC.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
+    <Compile Include="Assets\Scripts\Timeline\Editor\CreateTimeline.cs" />
     <Compile Include="Assets\Tools\XrCode\Editor\UI\UIAdjustTools\AdjustUIBox.cs" />
     <Compile Include="Assets\Editor\UGUI\UGUIExpendEditor.cs" />
     <Compile Include="Assets\Editor\AssetBundle\AssetUtils.cs" />

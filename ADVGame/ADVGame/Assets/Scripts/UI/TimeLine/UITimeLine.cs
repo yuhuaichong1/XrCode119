@@ -10,7 +10,9 @@ namespace XrCode
     {
         protected override void OnAwake() { }
         protected override void OnEnable() { }
-        	    private void OnExitBtnClickHandle()        {            UIManager.Instance.CloseUI(EUIType.EUITimeLine);        }	    private void OnItemBtnClickHandle()
+        	    private void OnExitBtnClickHandle()        {            UIManager.Instance.CloseUI(EUIType.EUITimeLine);
+            //UIManager.Instance.OpenAsync<UIGameTest>(EUIType.EUIUIGameTest);
+            VideoPlayerEvent.VideoPlay?.Invoke();        }	    private void OnItemBtnClickHandle()
         {
         
         }

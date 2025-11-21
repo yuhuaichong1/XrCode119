@@ -74,7 +74,9 @@ namespace XrCode
 
         private void OnCloseClickHandle()
         {
-            UIManager.Instance.CloseUI(EUIType.EUIUIGameTest);
+            UIManager.Instance.OpenAsync<UITimeLine>(EUIType.EUITimeLine);
+            //UIManager.Instance.CloseUI(EUIType.EUIUIGameTest);
+            VideoPlayerEvent.VideoPause?.Invoke();
         }
         protected  void OnDestroy()
         {

@@ -251,7 +251,6 @@
     <Compile Include="Assets\Tools\Plugins\protobuf-net\Serializers\ArrayDecorator.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ProtoContractAttribute.cs" />
     <Compile Include="Assets\Scripts\PlayerPref\PlayerPrefDefines.cs" />
-    <Compile Include="Assets\Scripts\Timeline\CreateTimeline.cs" />
     <Compile Include="Assets\Scripts\UI\Common\LoadingView.cs" />
     <Compile Include="Assets\Scripts\Framework\_Interface\IFixedUpdate.cs" />
     <Compile Include="Assets\Tools\Plugins\protobuf-net\ProtoEnumAttribute.cs" />
@@ -350,7 +349,6 @@
     <Compile Include="Assets\Scripts\Gaming\GamePlay\GamePlayModule.cs" />
     <Compile Include="Assets\Scripts\MultiLanguages\FacadeLanguage.cs" />
     <Compile Include="Assets\Scripts\Tools\Timer\Timer.cs" />
-    <Compile Include="Assets\Scripts\Timeline\TimeLineSC.cs" />
     <Compile Include="Assets\Tools\EasyTouchBundle\EasyTouch\Example\UnityUI\UITwistPinch\UIDrag.cs" />
     <Compile Include="Assets\Gen\Code\ConfPayRegion.cs" />
     <Compile Include="Assets\Gen\Code\TBPayChannel.cs" />
